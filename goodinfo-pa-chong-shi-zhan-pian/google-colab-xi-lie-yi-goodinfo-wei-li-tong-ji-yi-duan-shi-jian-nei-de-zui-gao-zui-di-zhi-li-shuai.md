@@ -15,9 +15,18 @@ description: 一起動動手來玩玩Python吧
 上一次我們已經示範如何抓取目標表格，這次的主軸會圍繞在如何切換表格內容並抓取某幾個cell的資料進行程式運算，因此這個篇章我們會學到以下幾個重要技能：
 
 * 抓取某段範圍內的cell內容。
+* 過濾標題。
 * 使用pandas進行計算與統計。
 
+一些基本的API筆記如下：
 
+```
+# 顯示有哪些欄位
+node.columns
+
+# 顯示Columns(列)為名稱的數據
+node[['名稱']] 
+```
 
 ### 觀察： 分析切換「顯示依據」的行為
 
@@ -109,7 +118,17 @@ node.head(5)
 
 * [https://www.learncodewithmike.com/2020/11/python-pandas-dataframe-tutorial.html](https://www.learncodewithmike.com/2020/11/python-pandas-dataframe-tutorial.html)
 
-接著我們直接進入重點，我們先試試看抓取重要的幾個欄位並留下即可。
+接著我們直接進入重點，我們先試試看抓取重要的幾個欄位並留下即可，並且我們試著將columns印出，記錄我們需要的欄位名稱，下一步我們會使用這些資訊留下重要的欄位資訊。
+
+```python
+# 這邊我們將標題僅留下第3列即可
+node.columns = node.columns.get_level_values(3)
+
+# 印出標題名稱
+node.columns
+```
+
+<figure><img src="../.gitbook/assets/標題名稱.png" alt=""><figcaption></figcaption></figure>
 
 
 
