@@ -60,7 +60,7 @@ Print("Hello World")
 
 增加區塊之後就可以開始撰寫屬於該段程式碼的說明文件囉，對了，這邊使用的編輯格式為[Markdown語法](https://zh.wikipedia.org/zh-tw/Markdown)，雖然是軟體工程常用的註解語法架構，但其實非常的容易學習，一般人也能快速進入狀況，就算不會語法也沒關係，透過列表上的UI點選也可以很容易的寫出漂亮的文件。
 
-<figure><img src="../.gitbook/assets/文字區塊.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/aNLHZe3S">圖片來源</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/文字區塊 (1).png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/aNLHZe3S">圖片來源</a></p></figcaption></figure>
 
 給自己一個練習，寫出一段大綱來說明你的程式碼，歡迎留言分享學習心得，一起努力成長，加油！
 
