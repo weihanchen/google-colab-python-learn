@@ -1,5 +1,5 @@
 ---
-description: 一起動動手來玩玩Python吧
+description: 一起動動手來玩玩Python，打造自己的知識庫吧！
 ---
 
 # 【Google Colab系列】該如何設計自己的爬蟲來抓取Html資料？
@@ -94,7 +94,7 @@ print(node)
 
 接著我們可以透過.head()的方式來瀏覽資料集。
 
-<figure><img src="../.gitbook/assets/瀏覽資料集 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/瀏覽資料集.png" alt=""><figcaption></figcaption></figure>
 
 下一個章節我們再來介紹如何取得我們要的EPS、殖利率…等關鍵指標進行程式運算，看到此篇文章的你不妨動手試試看，相信成功之後會非常有成就感，才能有信心往下一道關卡邁進。
 
