@@ -18,7 +18,7 @@ description: 一起動動手來玩玩Python吧
 * 過濾標題。
 * 使用pandas進行計算與統計。
 
-一些基本的API筆記如下：
+這次的實戰練習會用到一些基本的API筆記如下：
 
 ```
 # 顯示有哪些欄位
@@ -26,6 +26,9 @@ node.columns
 
 # 顯示Columns(列)為名稱的數據
 node[['名稱']] 
+
+# 取得指定「列」的標題
+node.columns.get_level_values(3)
 ```
 
 ### 觀察： 分析切換「顯示依據」的行為
@@ -130,7 +133,26 @@ node.columns
 
 <figure><img src="../.gitbook/assets/標題名稱.png" alt=""><figcaption></figcaption></figure>
 
+接著我們試著讓資訊列僅留下指定欄位資訊。
 
+```python
+# 顯示Columns(列)為名稱的數據
+# 這次抓取的目標有4個欄位，分別以下：
+node = node[['股利  發放  年度', '股利  合計', '最高', '最低']] 
+
+node.head(5)
+```
+
+<figure><img src="../.gitbook/assets/留下指定欄位資訊.png" alt=""><figcaption></figcaption></figure>
+
+重頭戲來囉！ 加油，剩下最後一段路了，讓我們來統計一下這N年的最高與最低殖利率吧！ 如果不知道殖利率怎麼計算的朋友不妨試著閱讀以下文章：&#x20;
+
+* [金融理財入門(股票篇) — 基本面名詞](https://www.potatomedia.co/s/bXdkrdvG)
+* [【股市韭菜系列】明年股息推算，以「xx」為例](https://www.potatomedia.co/s/hlGfSzx)
+
+讓我們動手來進行程式開發，統計屬於自己的分析庫。
+
+###
 
 ### 結語
 
@@ -147,3 +169,10 @@ node.columns
 [Web3.0時代下為創作者、閱讀者打造的專屬共贏平台 - 為什麼要加入？](https://www.potatomedia.co/s/2PmFxsq)&#x20;
 
 歡迎加入一起練習寫作，賺取知識，累積財富！
+
+
+
+### 資源參考
+
+* [https://minkuanchen.medium.com/python-pandas-goodinfo%E7%9A%84%E6%B3%95%E4%BA%BA%E8%B2%B7%E8%B3%A3%E8%B6%85-1a0d821db99d](https://minkuanchen.medium.com/python-pandas-goodinfo%E7%9A%84%E6%B3%95%E4%BA%BA%E8%B2%B7%E8%B3%A3%E8%B6%85-1a0d821db99d)
+* [https://pandas.pydata.org/docs/getting\_started/intro\_tutorials/06\_calculate\_statistics.html](https://pandas.pydata.org/docs/getting\_started/intro\_tutorials/06\_calculate\_statistics.html)
