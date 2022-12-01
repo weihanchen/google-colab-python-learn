@@ -140,7 +140,7 @@ node.columns
 # 這次抓取的目標有4個欄位，分別以下：
 node = node[['股利  發放  年度', '股利  合計', '最高', '最低']] 
 
-node.head(5)
+node = node.head()
 ```
 
 <figure><img src="../.gitbook/assets/留下指定欄位資訊.png" alt=""><figcaption></figcaption></figure>
@@ -150,7 +150,46 @@ node.head(5)
 * [金融理財入門(股票篇) — 基本面名詞](https://www.potatomedia.co/s/bXdkrdvG)
 * [【股市韭菜系列】明年股息推算，以「xx」為例](https://www.potatomedia.co/s/hlGfSzx)
 
-讓我們動手來進行程式開發，統計屬於自己的分析庫。
+讓我們動手來進行程式開發，統計屬於自己的分析庫，首先我們針對前N筆的股利合計、最高、最低進行平均的運算，但在平均之前值得注意的是表格內的值尚未轉換前仍為字串，因此我們要優先處理型態轉換如下：
+
+```python
+# 把 str 轉成 float 型態才能進行統計
+node['最低'] = node['最低'].astype('float')
+node['最高'] = node['最高'].astype('float') 
+```
+
+接著我們分別取合計股利、最高、最低的平均數。
+
+```python
+dividend = node['股利  合計'].mean()
+highest = node['最高'].mean()
+lowest = node['最低'].mean()
+```
+
+接下來就是重頭戲殖利率的計算囉！
+
+```python
+# 由於股價越低，殖利率越高的特性，因此會以股利除以最低價
+hYield = dividend / lowest
+
+
+# 由於股價越高，殖利率越低的特性， 因此會以股利除以最高價
+lYield = dividend / highest
+
+# 這邊已知的資訊有目前股價，而未知的資訊則是發放股利，因此我們可以設法由最近四季去推估未來可能的股利，進而得到目前殖利率的指標， 最終依據最高與最低殖利率決定買進時間點
+# 注意： 以下並非真實資料，僅以示範為主
+# 假設目前股價為27.5
+# 預估可能發放股利: 2
+cYield = 2 / 27.5
+
+print('最高殖利率={0:.2%}, 最低殖利率={1:.2%}, 目前殖利率={2:.2%}'.format(hYield, lYield, cYield))
+```
+
+得出最終結果為：
+
+```
+最高殖利率=9.06%, 最低殖利率=5.71%, 目前殖利率=7.27%
+```
 
 ###
 
