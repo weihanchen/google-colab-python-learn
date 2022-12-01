@@ -4,11 +4,15 @@ description: 一起動動手來玩玩Python吧
 
 # 【Google Colab系列】以Goodinfo!為例，統計一段時間內的最高、最低殖利率
 
+<figure><img src="../.gitbook/assets/殖利率區間.drawio.png" alt=""><figcaption></figcaption></figure>
+
 上一篇我們有介紹Google Colab Python的爬蟲基礎概念與技巧，還沒閱讀的朋友可以先進行閱讀，並建立基礎概念之後再接著進行實戰演練會比較容易上手唷！ 這裡就附上連結「[【Google Colab系列】該如何設計自己的爬蟲來抓取Html資料？](google-colab-xi-lie-gai-ru-he-she-ji-zi-ji-de-pa-chong-lai-zhua-qu-html-zi-liao.md)」供各位參考囉！
 
 
 
 這一篇章會以捕魚的四大步驟進行比喻，由淺入深，逐步完成屬於自己的統計程式，目標是能夠以生活化例子建立撰寫爬蟲的基礎概念，未來假若我們需要進一步蒐集資料進行統計分析時，就將這套心法搬出來舞弄，相信概念與技巧熟練之後，遇到任何奇耙的網站資料也都能夠迎刃而解。
+
+<figure><img src="../.gitbook/assets/捕魚.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -17,19 +21,6 @@ description: 一起動動手來玩玩Python吧
 * 抓取某段範圍內的cell內容。
 * 過濾標題。
 * 使用pandas進行計算與統計。
-
-這次的實戰練習會用到一些基本的API筆記如下：
-
-```
-# 顯示有哪些欄位
-node.columns
-
-# 顯示Columns(列)為名稱的數據
-node[['名稱']] 
-
-# 取得指定「列」的標題
-node.columns.get_level_values(3)
-```
 
 ### 觀察： 分析切換「顯示依據」的行為
 
@@ -54,8 +45,6 @@ https://goodinfo.tw/tw/StockDividendPolicy.asp?STOCK_ID=xxx
 因此我們需要抓取的元素有「股利發放年度」、「現金股利」、「年度股價」這些資訊輔助我們進行每一年殖利率的計算。
 
 
-
-至於殖利率怎麼計算請參考「...」。
 
 ### 收網： 撰寫程式進行抓取重要區塊
 
@@ -179,8 +168,8 @@ lYield = dividend / highest
 # 這邊已知的資訊有目前股價，而未知的資訊則是發放股利，因此我們可以設法由最近四季去推估未來可能的股利，進而得到目前殖利率的指標， 最終依據最高與最低殖利率決定買進時間點
 # 注意： 以下並非真實資料，僅以示範為主
 # 假設目前股價為27.5
-# 預估可能發放股利: 2
-cYield = 2 / 27.5
+# 平均股利: 1.8782
+cYield = dividend / 27.5
 
 print('最高殖利率={0:.2%}, 最低殖利率={1:.2%}, 目前殖利率={2:.2%}'.format(hYield, lYield, cYield))
 ```
@@ -188,10 +177,33 @@ print('最高殖利率={0:.2%}, 最低殖利率={1:.2%}, 目前殖利率={2:.2%}
 得出最終結果為：
 
 ```
-最高殖利率=9.06%, 最低殖利率=5.71%, 目前殖利率=7.27%
+最高殖利率=9.06%, 最低殖利率=5.71%, 目前殖利率=6.83%
 ```
 
-###
+[❗](https://emojipedia.org/exclamation-mark/) 這邊的股價請使用今天的範例進行動態抓取，做為練習，加深印象，因此範例中特以固定的值進行統計，真實數據並非如此，下一篇章我們會用近四季的EPS來預估明年的股息，因此目前股價與預估的股息就不在本篇進行贅述囉。
+
+
+
+📝 這次的實戰練習會用到一些基本的API筆記如下：
+
+```
+# 顯示有哪些欄位
+node.columns
+
+# 顯示Columns(列)為名稱的數據
+node[['名稱']] 
+
+# 取得指定「列」的標題
+node.columns.get_level_values(3)
+
+# 將指定欄資料集轉換型態以利統計
+node['欄位名稱'].astype('float')
+
+# 取平均
+node['欄位名稱'].mean()
+```
+
+
 
 ### 結語
 
