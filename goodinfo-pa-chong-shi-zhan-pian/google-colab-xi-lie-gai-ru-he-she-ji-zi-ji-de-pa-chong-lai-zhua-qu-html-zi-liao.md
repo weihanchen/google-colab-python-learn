@@ -2,7 +2,7 @@
 description: 一起動動手來玩玩Python，打造自己的知識庫吧！
 ---
 
-# 【Google Colab系列】該如何設計自己的爬蟲來抓取Html資料？
+# 【Google Colab Python系列】該如何設計自己的爬蟲來抓取Html資料？
 
 上一篇我們已經介紹過Google Colab的基本用法，建議可以先行閱讀「[【Google Colab系列】台股分析預備式： Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S)」，進行基本概念與環境的建置再進行下一步會比較容易進行學習。
 
@@ -107,6 +107,8 @@ Python不愧是進行資料分析的最佳利器，簡單的透過幾個套件�
 
 
 今天的範例都在這裡「[📦 goodinfo\_example.ipynb](../jupyter-examples/goodinfo\_example.ipynb)」歡迎自行取用。
+
+如何使用請參閱「[【Google Colab系列】台股分析預備式： Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S')」。
 
 \------------------------------------------------------------------------------------------------
 

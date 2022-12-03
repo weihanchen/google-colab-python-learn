@@ -2,7 +2,7 @@
 description: 一起動動手來玩玩Python吧
 ---
 
-# 【Google Colab系列】以Goodinfo!為例，統計一段時間內的最高、最低殖利率
+# 【Google Colab Python系列】以Goodinfo!為例，統計一段時間內的最高、最低殖利率
 
 <figure><img src="../.gitbook/assets/殖利率區間.drawio.png" alt=""><figcaption></figcaption></figure>
 
@@ -216,6 +216,8 @@ node['欄位名稱'].mean()
 
 
 今天的範例都在這裡「[📦 **goodinfo\_yield.ipynb**](../jupyter-examples/goodinfo\_yield.ipynb)」歡迎自行取用。
+
+如何使用請參閱「[【Google Colab系列】台股分析預備式： Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S')」。
 
 \------------------------------------------------------------------------------------------------
 
