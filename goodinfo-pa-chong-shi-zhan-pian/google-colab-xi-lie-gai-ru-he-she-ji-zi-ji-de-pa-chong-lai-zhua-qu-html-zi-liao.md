@@ -10,7 +10,7 @@ description: 一起動動手來玩玩Python，打造自己的知識庫吧！
 
 這次主要介紹兩個重要的套件，分別是「BeautifulSoap」與「Pandas」，這兩個工具主要瞄準的目標不太相同，「BeautifulSoap」主要針對HTML、XML格式進行解析，讓我們可以更快的抓到我們需要的資料，等於是幫我們進行第一道關卡的過濾，而第二道關卡資料分析的過程就需要透過「Pandas」來幫我們進行了，就相當於資料 → 資訊 → 知識的轉化過程。
 
-<figure><img src="../.gitbook/assets/spider.drawio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/spider.drawio.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/ah0EuUhd">圖片來源</a></p></figcaption></figure>
 
 ### 撒網目標： Goodinfo!
 
@@ -19,7 +19,7 @@ description: 一起動動手來玩玩Python，打造自己的知識庫吧！
 
 我們已經很確定要抓取的網頁資訊就是在「經營績效」這個頁面，因此第一步就是先進到這個畫面之後，將網址複製起來。
 
-<figure><img src="../.gitbook/assets/蒐集_經營績效.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/蒐集_經營績效.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/ah0EuUhd">圖片來源</a></p></figcaption></figure>
 
 得到網址為：[https://goodinfo.tw/tw/StockBzPerformance.asp?STOCK\_ID=3231](https://goodinfo.tw/tw/StockBzPerformance.asp?STOCK\_ID=3231)
 
@@ -34,17 +34,17 @@ res.text
 
 但非常不幸的第一步將遇到一個狀況就是我們被誤以為機器人，因此沒辦法請求任何資訊了！
 
-<figure><img src="../.gitbook/assets/被阻擋的請求.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/被阻擋的請求.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/ah0EuUhd">圖片來源</a></p></figcaption></figure>
 
 怎麼辦呢？ 主要是許多網站都會檢查header是否為user-agent來判定為機器人或者瀏覽器行為，此時我們來觀察一下瀏覽器操作的行為，並試圖模擬一下。
 
 回到頁面，我們按下F12打開瀏覽器開發者工具列，切到Network，接著按下頁面重新整理之後，蒐集目前頁面網路傳輸資訊。
 
-<figure><img src="../.gitbook/assets/觀察瀏覽器行為.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/觀察瀏覽器行為.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/ah0EuUhd">圖片來源</a></p></figcaption></figure>
 
 接著在Headers裡面找到user-agent欄位並複製起來。
 
-<figure><img src="../.gitbook/assets/找到user_agent.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/找到user_agent.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/ah0EuUhd">圖片來源</a></p></figcaption></figure>
 
 接著我們回到Colab進行程式開發，將headers帶入。
 
@@ -57,13 +57,13 @@ res = requests.get('<https://goodinfo.tw/tw/StockBzPerformance.asp?STOCK_ID=3231
 
 此時執行後我們就能夠成功抓到內容囉！
 
-<figure><img src="../.gitbook/assets/成功抓到資訊.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/成功抓到資訊.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/ah0EuUhd">圖片來源</a></p></figcaption></figure>
 
 ### 網頁解析的利器： BeautifulSoap
 
 首先我們一樣開始F12開發者工具，並且點選左下角的「Select an element…」來獲取指定區塊，今天我們抓取的目標是獲利指標，因此就將滑鼠移到該區塊。
 
-<figure><img src="../.gitbook/assets/鎖定目標.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/鎖定目標.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/ah0EuUhd">圖片來源</a></p></figcaption></figure>
 
 接著我們回到Colab撰寫程式抓取目標值。
 
@@ -75,7 +75,7 @@ data = bs.select_one('#tblDetail')
 
 成功抓到區塊資料如下：
 
-<figure><img src="../.gitbook/assets/成功抓取目標.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/成功抓取目標.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/ah0EuUhd">圖片來源</a></p></figcaption></figure>
 
 ### 資料分析的利器: Pandas
 
@@ -90,11 +90,11 @@ print(node)
 
 成功抓取目標節點。
 
-<figure><img src="../.gitbook/assets/成功抓取目標資訊.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/成功抓取目標資訊.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/ah0EuUhd">圖片來源</a></p></figcaption></figure>
 
 接著我們可以透過.head()的方式來瀏覽資料集。
 
-<figure><img src="../.gitbook/assets/瀏覽資料集.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/瀏覽資料集.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/ah0EuUhd">圖片來源</a></p></figcaption></figure>
 
 下一個章節我們再來介紹如何取得我們要的EPS、殖利率…等關鍵指標進行程式運算，看到此篇文章的你不妨動手試試看，相信成功之後會非常有成就感，才能有信心往下一道關卡邁進。
 
