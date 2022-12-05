@@ -34,7 +34,7 @@ description: 以報表展示資料視覺化，讓分析更加精準...
 
 #### 計算目前殖利率
 
-請參閱「[🚪【Google Colab系列】以Goodinfo!為例，統計一段時間內的最高、最低殖利率](https://www.potatomedia.co/s/ah0EuUhd)」
+請參閱「[🚪【Google Colab系列】以Goodinfo!為例，統計一段時間內的最高、最低殖利率](https://www.potatomedia.co/s/ah0EuUhd)」，並搭配上述最新成交價的資訊進行公式的替換即可。
 
 #### 繪製圖表
 
