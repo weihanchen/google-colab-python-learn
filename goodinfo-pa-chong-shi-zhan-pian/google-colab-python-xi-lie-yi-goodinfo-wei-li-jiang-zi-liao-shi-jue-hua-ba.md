@@ -44,8 +44,14 @@ description: 以報表展示資料視覺化，讓分析更加精準...
 
 
 
-
-
 今天的範例都在這裡「[📦 **goodinfo\_yield.ipynb**](../jupyter-examples/goodinfo\_yield.ipynb)」歡迎自行取用。
 
 如何使用請參閱「[【Google Colab系列】台股分析預備式： Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S')」。
+
+\------------------------------------------------------------------------------------------------
+
+喜歡撰寫文章的你，不妨來了解一下：
+
+[Web3.0時代下為創作者、閱讀者打造的專屬共贏平台 - 為什麼要加入？](https://www.potatomedia.co/s/2PmFxsq)&#x20;
+
+歡迎加入一起練習寫作，賺取知識，累積財富！
