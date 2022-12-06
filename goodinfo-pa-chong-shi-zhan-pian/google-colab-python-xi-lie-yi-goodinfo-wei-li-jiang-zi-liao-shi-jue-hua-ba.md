@@ -70,7 +70,7 @@ price = float(x)
 ```python
 import matplotlib.pyplot as plt
 
-plt.boxplot(<...資料集>
+plt.boxplot(<...資料集>, <>...配置
 
 ```
 
@@ -82,6 +82,6 @@ plt.boxplot(<...資料集>
 
 喜歡撰寫文章的你，不妨來了解一下：
 
-[Web3.0時代下為創作者、閱讀者打造的專屬共贏平台 - 為什麼要加入？](https://www.potatomedia.co/s/2PmFxsq)&#x20;
+[Web3.0時代下為創作者、閱讀者打造的專屬共贏平台 - 為什麼要加入？](https://www.potatomedia.co/s/2PmFxsq)
 
 歡迎加入一起練習寫作，賺取知識，累積財富！
