@@ -65,11 +65,14 @@ price = float(x)
 
 #### 繪製圖表
 
-重頭戲來了，具備資料之後，下一步就是將這些資料繪製成簡單易懂的圖表，以利進行分析，而這邊會使用到的是Python語言中較為知名的套件「[matplotlib](https://matplotlib.org/)」，提供種類豐富的圖表類型，而這次我們採用範例的是箱型圖，
+重頭戲來了，具備資料之後，下一步就是將這些資料繪製成簡單易懂的圖表，以利進行分析，而這邊會使用到的是Python語言中較為知名的套件「[matplotlib](https://matplotlib.org/)」，提供種類豐富的圖表類型，而這次我們採用範例的是箱型圖，而箱型圖繪製的API如下：
 
-### 結語
+```python
+import matplotlib.pyplot as plt
 
+plt.boxplot(<...資料集>
 
+```
 
 今天的範例都在這裡「[📦 **goodinfo\_yield.ipynb**](../jupyter-examples/goodinfo\_yield.ipynb)」歡迎自行取用。
 
