@@ -32,13 +32,40 @@ description: 以報表展示資料視覺化，讓分析更加精準...
 
 #### 抓取最新成交價
 
+我們一樣使用dom分析的工具來抓取指定表格，如何抓？ 請參閱「[🚪【Google Colab系列】以Goodinfo!為例，統計一段時間內的最高、最低殖利率](https://www.potatomedia.co/s/ah0EuUhd)」，以下是主要抓取的部分：
+
+```python
+# 這一段是「成交價」區塊
+price_data = bs.find(class_ = 'b1 p4_2 r10')
+```
+
+接著我們試著取得成交價，並進行轉型為float以利後續計算。
+
+```python
+import pandas
+
+dfs = pandas.read_html(price_data.prettify())
+
+node = dfs[0]
+
+# 僅留下第一列
+node.columns = node.columns.get_level_values(1)
+
+# 印出Columns輔助以下抓取重要資訊
+# node.columns
+
+# 取得第一列的成交價
+x = node['成交價'].iloc[0]
+price = float(x)
+```
+
 #### 計算目前殖利率
 
 請參閱「[🚪【Google Colab系列】以Goodinfo!為例，統計一段時間內的最高、最低殖利率](https://www.potatomedia.co/s/ah0EuUhd)」，並搭配上述最新成交價的資訊進行公式的替換即可。
 
 #### 繪製圖表
 
-
+重頭戲來了，具備資料之後，下一步就是將這些資料繪製成簡單易懂的圖表，以利進行分析，而這邊會使用到的是Python語言中較為知名的套件「[matplotlib](https://matplotlib.org/)」，提供種類豐富的圖表類型，而這次我們採用範例的是箱型圖，
 
 ### 結語
 
