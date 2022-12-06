@@ -74,6 +74,39 @@ plt.boxplot(<...資料集>, <x軸, ...更多配置>)
 
 ```
 
+**繪製目前股價位階圖**
+
+* 以N年平均最高股價與最低股價作為上下限。
+* 對照目前股價位階。
+* 股價越低代表價格越迷人。
+
+```python
+import matplotlib.pyplot as plt
+
+# lowest 近N年平均最低價
+# price 目前股價
+# highest 近N年平均最高價
+data = [lowest, price, highest]
+
+# 標籤
+labels = ['price']
+
+plt.boxplot(data, labels=labels)
+plt.show()
+```
+
+<figure><img src="../.gitbook/assets/股價位階圖.png" alt=""><figcaption></figcaption></figure>
+
+### 結語
+
+藉由上述的圖表呈現可以得知目前股價處於近N年的哪個位階，以價格來說有些偏高，以殖利率來說有些偏低，因此會暫時觀望，等待時機再行購入，當然這些都是過去資料並不代表未來，過去的數據不論怎麼推估都並非產生絕對的未來，我們僅能掌握更多數據來提升對未來的決策判斷。
+
+
+
+不妨親自動動手來計算這些數據，相信會更加印象深刻，以後遇到各種資料我們都能夠較為準確的判斷，而不是僅憑感覺盲目的猜測，造成不精準的決策導致損失。
+
+
+
 今天的範例都在這裡「[📦 **goodinfo\_yield.ipynb**](../jupyter-examples/goodinfo\_yield.ipynb)」歡迎自行取用。
 
 如何使用請參閱「[【Google Colab系列】台股分析預備式： Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S')」。
