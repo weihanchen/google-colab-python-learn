@@ -70,7 +70,7 @@ price = float(x)
 ```python
 import matplotlib.pyplot as plt
 
-plt.boxplot(<...資料集>, <>...配置
+plt.boxplot(<...資料集>, <x軸, ...更多配置>)
 
 ```
 
