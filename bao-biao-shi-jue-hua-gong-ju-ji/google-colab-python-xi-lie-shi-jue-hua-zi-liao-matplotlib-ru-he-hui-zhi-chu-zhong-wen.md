@@ -1,5 +1,7 @@
 # 🖋 【Google Colab Python系列】 視覺化資料Matplotlib 如何繪製出中文？
 
+<figure><img src="../.gitbook/assets/matplotlib中文化.drawio.png" alt=""><figcaption></figcaption></figure>
+
 我們前篇有介紹到如何讓資料視覺化「📈【Google Colab Python系列】以Goodinfo為例，將資料視覺化吧！」，過程中雖然我們的報表呈現皆使用英文字眼，但假若欲繪製中文進行呈現時就會發生以下狀況：
 
 ```python
@@ -28,8 +30,6 @@ plt.show()
 由上述的訊息可以推估可能是某些字型缺失，因此無法正常顯現，這時候我們就需要下載字型並補足，以下會逐步說明步驟。
 
 ### 加掛字型
-
-
 
 ### 資源參考
 
