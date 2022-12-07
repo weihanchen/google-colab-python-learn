@@ -4,8 +4,6 @@ description: 📚 Learn Google Colab、Python、ML
 
 # 📌 基本介紹
 
-
-
 ### 基礎篇
 
 * [【Google Colab系列】Colab平台與Python如何擦出火花？](ji-chu-pian/google-colab-xi-lie-colab-ping-tai-yu-python-ru-he-ca-chu-huo-hua.md)
@@ -16,7 +14,6 @@ description: 📚 Learn Google Colab、Python、ML
 * [【Google Colab Python系列】以Goodinfo!為例，統計區間內的數值](goodinfo-pa-chong-shi-zhan-pian/google-colab-xi-lie-yi-goodinfo-wei-li-tong-ji-yi-duan-shi-jian-nei-de-zui-gao-zui-di-zhi-li-shuai.md)
 * [📈【Google Colab Python系列】以Goodinfo為例，將資料視覺化吧！](goodinfo-pa-chong-shi-zhan-pian/google-colab-python-xi-lie-yi-goodinfo-wei-li-jiang-zi-liao-shi-jue-hua-ba.md)
 
+### 報表視覺化工具集
 
-
-
-
+* [【Google Colab Python系列】 視覺化資料Matplotlib 如何繪製出中文？](bao-biao-shi-jue-hua-gong-ju-ji/google-colab-python-xi-lie-shi-jue-hua-zi-liao-matplotlib-ru-he-hui-zhi-chu-zhong-wen.md)

@@ -1,3 +1,7 @@
+---
+description: 小技巧大受用
+---
+
 # 🖋 【Google Colab Python系列】 視覺化資料Matplotlib 如何繪製出中文？
 
 <figure><img src="../.gitbook/assets/matplotlib中文化.drawio.png" alt=""><figcaption></figcaption></figure>
@@ -28,6 +32,23 @@ plt.show()
 ```
 
 由上述的訊息可以推估可能是某些字型缺失，因此無法正常顯現，這時候我們就需要下載字型並補足，以下會逐步說明步驟。
+
+### 找出字型位置
+
+第一步我們要先找出matplotlib的字型位置，並下載中文字型進行增補。
+
+```python
+import matplotlib
+matplotlib.matplotlib_fname()
+```
+
+```
+/usr/local/lib/python3.8/dist-packages/matplotlib/mpl-data/matplotlibrc
+```
+
+### 下載字型並存放至目錄
+
+###
 
 ### 加掛字型
 
