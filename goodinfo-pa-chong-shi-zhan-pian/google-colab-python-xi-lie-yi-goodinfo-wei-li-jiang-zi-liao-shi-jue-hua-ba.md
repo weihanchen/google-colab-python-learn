@@ -97,6 +97,30 @@ plt.show()
 
 <figure><img src="../.gitbook/assets/股價位階圖.png" alt=""><figcaption></figcaption></figure>
 
+**繪製目前殖利率位階圖**
+
+* 以N年平均最高與最低殖利率作為上下限。
+* 對照目前的殖利率位階。
+* 殖利率越高代表目前CP值越高。
+
+```python
+import matplotlib.pyplot as plt
+
+# lYield 近N年平均最低殖利率
+# cYield 目前殖利率
+# hYield 近N年平均最高殖利率
+data = [lYield, cYield, hYield]
+
+labels = ['yield']
+
+plt.boxplot(data, labels=labels)
+plt.show()o
+```
+
+<figure><img src="../.gitbook/assets/殖利率位階圖.png" alt=""><figcaption></figcaption></figure>
+
+相信具有圖表的輔助更能夠快速的判斷及決策，而Matplotlib這套工具就能夠很好的薑我們的資料繪製成圖，非常便利。
+
 ### 結語
 
 藉由上述的圖表呈現可以得知目前股價處於近N年的哪個位階，以價格來說有些偏高，以殖利率來說有些偏低，因此會暫時觀望，等待時機再行購入，當然這些都是過去資料並不代表未來，過去的數據不論怎麼推估都並非產生絕對的未來，我們僅能掌握更多數據來提升對未來的決策判斷。
