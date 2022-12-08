@@ -33,22 +33,30 @@ plt.show()
 
 由上述的訊息可以推估可能是某些字型缺失，因此無法正常顯現，這時候我們就需要下載字型並補足，以下會逐步說明步驟。
 
-### 找出字型位置
 
-第一步我們要先找出matplotlib的字型位置，並下載中文字型進行增補。
-
-```python
-import matplotlib
-matplotlib.matplotlib_fname()
-```
-
-```
-/usr/local/lib/python3.8/dist-packages/matplotlib/mpl-data/matplotlibrc
-```
 
 ### 下載字型並存放至目錄
 
-###
+字型的下載可以到「[思源宋體](https://github.com/adobe-fonts/source-han-serif)」抓取唷！裡面涵蓋了中、日、韓的字型，那這邊的範例我們就隨便選一個中文字型來進行示範。
+
+這邊我們會下載繁體中文的ttf檔，並將該檔掛入matplotlib的字型資料庫中，以便進行中文的繪製。
+
+```python
+import matplotlib as mpl
+import matplotlib.font_manager as fm
+import matplotlib.pyplot as plt
+
+# 下載繁體中文字型
+!wget -O SourceHanSerifTW-VF.ttf https://github.com/adobe-fonts/source-han-serif/raw/release/Variable/TTF/Subset/SourceHanSerifTW-VF.ttf
+
+# 加入字型檔
+fm.fontManager.addfont('SourceHanSerifTW-VF.ttf')
+
+# 設定字型
+mpl.rc('font', family='SourceHanSerifTWVF-Regular')
+```
+
+至於要設定哪種family請參閱「[official font readme file](https://github.com/adobe-fonts/source-han-serif/raw/release/SourceHanSerifReadMe.pdf).」。
 
 ### 加掛字型
 
