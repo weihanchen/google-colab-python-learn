@@ -1,5 +1,5 @@
 ---
-description: 小技巧大受用
+description: 中文字型小技巧大受用
 ---
 
 # 🖋 【Google Colab Python系列】 視覺化資料Matplotlib 如何繪製出中文？
@@ -35,7 +35,7 @@ plt.show()
 
 
 
-### 下載字型並存放至目錄
+### 下載字型並加掛
 
 字型的下載可以到「[思源宋體](https://github.com/adobe-fonts/source-han-serif)」抓取唷！裡面涵蓋了中、日、韓的字型，那這邊的範例我們就隨便選一個中文字型來進行示範。
 
@@ -53,12 +53,21 @@ import matplotlib.pyplot as plt
 fm.fontManager.addfont('SourceHanSerifTW-VF.ttf')
 
 # 設定字型
-mpl.rc('font', family='SourceHanSerifTWVF-Regular')
+# 
+mpl.rc('font', family='Source Han Serif TW VF')
 ```
 
 至於要設定哪種family請參閱「[official font readme file](https://github.com/adobe-fonts/source-han-serif/raw/release/SourceHanSerifReadMe.pdf).」。
 
-### 加掛字型
+### 結語
+
+字型問題真的非常惱人啊，有otf、ttf、woff2...等字型格式，以及各種標準方法(family)，關於字型更多的知識請參考「[https://zh.wikipedia.org/zh-tw/%E5%AD%97%E5%9E%8B](https://zh.wikipedia.org/zh-tw/%E5%AD%97%E5%9E%8B)」
+
+
+
+今天的範例都在這裡「[📦 ](../jupyter-examples/goodinfo\_yield.ipynb)****[**matplotlib\_chinese\_font.ipynb**](../jupyter-examples/matplotlib\_chinese\_font.ipynb)」歡迎自行取用。
+
+如何使用請參閱「[【Google Colab系列】台股分析預備式： Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S')」。
 
 ### 資源參考
 
