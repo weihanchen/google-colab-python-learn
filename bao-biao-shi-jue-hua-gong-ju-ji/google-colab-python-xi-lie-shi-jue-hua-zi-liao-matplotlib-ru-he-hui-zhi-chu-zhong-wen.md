@@ -59,7 +59,29 @@ mpl.rc('font', family='Source Han Serif TW VF')
 
 至於要設定哪種family請參閱「[official font readme file](https://github.com/adobe-fonts/source-han-serif/raw/release/SourceHanSerifReadMe.pdf).」。
 
+
+
+#### 繪製中文標籤
+
+```python
+data = [0.2, 0.4, 0.6]
+
+# 這裡繪製出中文
+labels = ['中文']
+
+plt.boxplot(data, labels=labels)
+plt.show()
+```
+
+<figure><img src="../.gitbook/assets/成功繪製中文.png" alt=""><figcaption></figcaption></figure>
+
+
+
 ### 結語
+
+這次就能夠成功繪製並且沒有錯誤訊息囉！ 其實在初學Python的時候最常遇到的就是中文亂碼的問體，沒想到套件也是稍微複雜，不過套件的問題與Python中文問題又不太相似，僅是缺少一些字型而已，補足即可，只是Matplotlib的官方文件真的蠻詳細的需要好好的研讀才能解決遇到的問題，過程中也學習到別人的設計模式，可以當成下一次的功能設計養分。
+
+
 
 字型問題真的非常惱人啊，有otf、ttf、woff2...等字型格式，以及各種標準方法(family)，關於字型更多的知識請參考「[https://zh.wikipedia.org/zh-tw/%E5%AD%97%E5%9E%8B](https://zh.wikipedia.org/zh-tw/%E5%AD%97%E5%9E%8B)」
 
