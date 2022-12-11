@@ -6,7 +6,7 @@ description: 中文字型小技巧大受用
 
 <figure><img src="../.gitbook/assets/matplotlib中文化.drawio.png" alt=""><figcaption></figcaption></figure>
 
-我們前篇有介紹到如何讓資料視覺化「📈【Google Colab Python系列】以Goodinfo為例，將資料視覺化吧！」，過程中雖然我們的報表呈現皆使用英文字眼，但假若欲繪製中文進行呈現時就會發生以下狀況：
+我們前篇有介紹到如何讓資料視覺化「[📈【Google Colab Python系列】以Goodinfo為例，將資料視覺化吧！](https://www.potatomedia.co/s/zX7EIT7)」，過程中雖然我們的報表呈現皆使用英文字眼，但假若欲繪製中文進行呈現時就會發生以下狀況：
 
 ```python
 import matplotlib.pyplot as plt
