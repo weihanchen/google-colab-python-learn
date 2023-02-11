@@ -18,10 +18,8 @@ description: 📚 Learn Google Colab、Python、ML
 
 * [【Google Colab Python系列】 視覺化資料Matplotlib 如何繪製出中文？](bao-biao-shi-jue-hua-gong-ju-ji/google-colab-python-xi-lie-shi-jue-hua-zi-liao-matplotlib-ru-he-hui-zhi-chu-zhong-wen.md)
 
-## 交易策略回測篇
+### 交易策略回測篇
 
-* [【Google Colab Python系列】 股市技術指標回測 - KD交易策略](jiao-yi-ce-lve-hui-ce-pian/google-colab-python-xi-lie-gu-shi-ji-shu-zhi-biao-hui-ce-kd-jiao-yi-ce-lve.md)
+* [【Google Colab Python系列】 技術指標回測 - KD策略](jiao-yi-ce-lve-hui-ce-pian/google-colab-python-xi-lie-ji-shu-zhi-biao-hui-ce-kd-ce-lve.md)
 
-
-
-### ML
+### ML篇
