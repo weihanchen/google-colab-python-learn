@@ -140,13 +140,18 @@ df.index = pd.to_datetime(df.index)
 
 # 使用talib計算KD值
 df_tmp = df
-# rename for talib
-df_tmp.rename(columns = {'High':'high', 'Low':'low','Adj Close':'close','Close':'non_adj close'}, inplace = True) 
+
+# 由於talib僅支援high、low、close這三種欄位名稱，因此進行一次轉換
+df_tmp.rename(columns = {'High':'high', 'Low':'low','Adj Close':'close','Close':'<skip>'}, inplace = True) 
+
+# 計算kd
 kd = abstract.STOCH(df_tmp)
 kd.index=df_tmp.index
-# merge two data frame
+
+# 合併
 fnl_df = df_tmp.join(kd).dropna() 
-# rename column name for backtest
+
+# 一樣將欄位名稱轉回backtest接受的參數名稱
 fnl_df.rename(columns = {'high':'High', 'low':'Low','close':'Close'}, inplace = True) 
 
 # 資料來源, 交易策略, 現金, 手續費(%)
