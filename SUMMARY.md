@@ -9,3 +9,5 @@
   * [📈【Google Colab Python系列】以Goodinfo為例，將資料視覺化吧！](goodinfo-pa-chong-shi-zhan-pian/google-colab-python-xi-lie-yi-goodinfo-wei-li-jiang-zi-liao-shi-jue-hua-ba.md)
 * [3 3 報表視覺化工具集](bao-biao-shi-jue-hua-gong-ju-ji/README.md)
   * [🖋 【Google Colab Python系列】 視覺化資料Matplotlib 如何繪製出中文？](bao-biao-shi-jue-hua-gong-ju-ji/google-colab-python-xi-lie-shi-jue-hua-zi-liao-matplotlib-ru-he-hui-zhi-chu-zhong-wen.md)
+* [4 交易策略回測篇](jiao-yi-ce-lve-hui-ce-pian/README.md)
+  * [【Google Colab Python系列】 股市技術指標回測 - KD交易策略](jiao-yi-ce-lve-hui-ce-pian/google-colab-python-xi-lie-gu-shi-ji-shu-zhi-biao-hui-ce-kd-jiao-yi-ce-lve.md)
