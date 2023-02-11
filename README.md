@@ -20,4 +20,8 @@ description: 📚 Learn Google Colab、Python、ML
 
 ## 交易策略回測篇
 
+* [【Google Colab Python系列】 股市技術指標回測 - KD交易策略](jiao-yi-ce-lve-hui-ce-pian/google-colab-python-xi-lie-gu-shi-ji-shu-zhi-biao-hui-ce-kd-jiao-yi-ce-lve.md)
+
+
+
 ### ML

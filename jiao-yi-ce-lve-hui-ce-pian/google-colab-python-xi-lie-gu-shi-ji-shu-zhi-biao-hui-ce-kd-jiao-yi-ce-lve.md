@@ -58,10 +58,10 @@ from datetime import datetime
 stock_code = '0050.TW'
 
 # 開始時間
-start_date = datetime(2008, 1, 1)
+start_date = datetime(2013, 1, 1)
 
 # 結束時間
-end_date = datetime(2022, 7, 25) 
+end_date = datetime(2023, 2, 11) 
 ###########################################################################################
 
 # 獲取股票資料
@@ -93,6 +93,12 @@ Date
 ### 有了數據之後，我們要讓數據會說話！
 
 數據是最有說服力的證據，讓我們實際撰寫一套交易策略來為我們的交易說說話吧！
+
+1. 這邊的範例主要是先利用talib來計算數據的KD值。
+2. 設計策略： KD小於20且黃金交叉(K穿越D)時買入，KD大於80且死亡交叉(D穿越K)時買入。
+3. 設定金額與手續費之後去跑回測資料。
+
+以上就可以在固定區間中不斷的替換策略，研究出屬於自己的一套最佳化策略去進行股市交易，提高勝率。
 
 ```python
 from backtesting import Backtest, Strategy 
@@ -152,3 +158,68 @@ print(result)
 
 test.plot()
 ```
+
+最後我們來解讀一下結果資訊吧，結果如下：
+
+```
+Start                     2013-01-14 00:00:00
+End                       2023-02-10 00:00:00
+Duration                   3679 days 00:00:00
+Exposure Time [%]                   29.922858
+Equity Final [$]                 10460.521845
+Equity Peak [$]                  12429.626572
+Return [%]                           4.605218
+Buy & Hold Return [%]              122.018349
+Return (Ann.) [%]                    0.461715
+Volatility (Ann.) [%]               10.943097
+Sharpe Ratio                         0.042192
+Sortino Ratio                        0.060318
+Calmar Ratio                         0.013289
+Max. Drawdown [%]                  -34.743676
+Avg. Drawdown [%]                   -3.493335
+Max. Drawdown Duration     2786 days 00:00:00
+Avg. Drawdown Duration      225 days 00:00:00
+# Trades                                   31
+Win Rate [%]                        64.516129
+Best Trade [%]                       6.143418
+Worst Trade [%]                    -13.532682
+Avg. Trade [%]                       0.141764
+Max. Trade Duration         138 days 00:00:00
+Avg. Trade Duration          35 days 00:00:00
+Profit Factor                        1.144918
+Expectancy [%]                        0.25123
+SQN                                  0.161717
+```
+
+其中我們只要關注兩項指標：
+
+* Win Rate \[%]： 勝率。
+* Return \[%]： 報酬率。
+
+用上述指標就能大概判斷我們的策略是否值得投資。
+
+## 結語
+
+如果報酬率不高但勝率高其實長期下來也只是將手續費送給券商而已，我們的目標應該是制定一套高勝率 + 高報酬率的指標策略，但這並不容易，況且機器無感情，我們人在交易時真的會照表操課嗎？ 這很令人懷疑，因此常常交易策略是好的沒錯，但最終的關鍵仍在於人，因此投資的市場中主要是磨練我們的心性，假若心性不夠堅定，無法有紀律的照著自己的交易策略執行的話，就不太建議踏入市場，或者是直接購買指數型ETF，讓被動投資幫我們累積微幅報酬率即可，專注本業讓資金擴大才是最根本之道。
+
+
+
+希望這樣的實戰練習能夠幫助到大家，讓我們不斷學習新知，因應這個變化萬千的世界，讓投資理財道路上減少踩雷的機會，創造出屬於自己的一套完美交易策略。
+
+
+
+如果你也撰寫出一套成功的交易策略的話，也歡迎互相分享，一起學習，打怪破關，突飛猛進。
+
+
+
+今天的範例都在這裡「[📦 ](../jupyter-examples/goodinfo\_yield.ipynb)****[**kd\_strategy.ipynb**](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/kd\_strategy.ipynb)」歡迎自行取用。
+
+如何使用請參閱「[【Google Colab系列】台股分析預備式： Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S)」。
+
+\------------------------------------------------------------------------------------------------
+
+喜歡撰寫文章的你，不妨來了解一下：
+
+[Web3.0時代下為創作者、閱讀者打造的專屬共贏平台 - 為什麼要加入？](https://www.potatomedia.co/s/2PmFxsq)
+
+歡迎加入一起練習寫作，賺取知識，累積財富！
