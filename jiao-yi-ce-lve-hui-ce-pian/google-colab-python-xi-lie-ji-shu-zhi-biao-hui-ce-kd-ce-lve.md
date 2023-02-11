@@ -4,7 +4,7 @@ description: 用數據來佐證一切吧！
 
 # 【Google Colab Python系列】 技術指標回測 - KD策略
 
-<figure><img src="../.gitbook/assets/回測.drawio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/回測.drawio.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/amYVHGBN">圖片來源</a></p></figcaption></figure>
 
 常常我們在財經節目聽到一堆技術指標都可以成功獲利，但真的如此嗎？ 這麼簡單的技術指標操作就能獲利，早就人人變成有錢人了！ 相信數據會說話，身為軟體工程師就最喜歡用數字來解讀一切了，因此這個篇章將會手把手教你如何使用Python語言來回測你的股票及交易策略。
 
