@@ -24,7 +24,7 @@ P.S 聽起來就很威，別著急，讓我們實際試試看才知道...
 
 這是一個opensource的專案，因此放置於Github： [https://github.com/openai/whisper](https://github.com/openai/whisper)
 
-<figure><img src="../.gitbook/assets/1_cMke9qdC4EvowVEDquVCjw.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1_cMke9qdC4EvowVEDquVCjw.webp" alt=""><figcaption><p><a href="https://github.com/openai/whisper">圖片來源</a></p></figcaption></figure>
 
 ### 安裝Whisper
 
@@ -46,11 +46,11 @@ P.S 聽起來就很威，別著急，讓我們實際試試看才知道...
 
 首先我們在右上角點選資源的圖示，並且點擊下方的「變更執行階段類型」。
 
-<figure><img src="../.gitbook/assets/變更執行階段類型.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/變更執行階段類型.png" alt=""><figcaption><p><a href="https://vocus.cc/article/644526c8fd89780001ffdd9f">圖片來源</a></p></figcaption></figure>
 
 接著我們就切換成「GPU」吧
 
-<figure><img src="../.gitbook/assets/切換GPU.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/切換GPU.png" alt=""><figcaption><p><a href="https://vocus.cc/article/644526c8fd89780001ffdd9f">圖片來源</a></p></figcaption></figure>
 
 ### 試著找一段Youtube影音，嘗試在Google Colab播放測試
 
@@ -91,6 +91,8 @@ obj = audio.download(filename='test.mp4')
 
 要載入什麼樣的模型呢？可以看看官方網站的「[Available models and languages](https://github.com/openai/whisper#available-models-and-languages)」
 
+<figure><img src="../.gitbook/assets/whisper_模型.png" alt=""><figcaption><p><a href="https://github.com/openai/whisper#available-models-and-languages">圖片來源</a></p></figcaption></figure>
+
 這邊我們就選擇大型的模型\`large\`試試看最佳可以辨識的如何？
 
 ```python
@@ -111,7 +113,7 @@ result
 
 我們可以看到回傳結果不只有整段文字，也將每一段的時間邊界切割出來，並精準的辨識出文字，看到這邊聰明的我們應該聯想到什麼了吧！ 沒錯，就是字幕檔，很多影片早期上字幕檔是非常繁雜的，透過whisper的精準辨識讓我們可以加快效率，來看看結果吧！
 
-<figure><img src="../.gitbook/assets/回傳結果.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/回傳結果.png" alt=""><figcaption><p><a href="https://vocus.cc/article/644526c8fd89780001ffdd9f">圖片來源</a></p></figcaption></figure>
 
 ### 結語
 
