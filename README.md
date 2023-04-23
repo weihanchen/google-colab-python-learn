@@ -25,3 +25,4 @@ description: 📚 Learn Google Colab、Python、ML
 ### ASR語音辨識篇 - OpenAI Whisper
 
 * [【Google Colab Python系列】 初探Whisper: 來對一段Youtube影片進行辨識吧！](5.-asr-yu-yin-bian-shi-pian-openai-whisper/google-colab-python-xi-lie-chu-tan-whisper-lai-dui-yi-duan-youtube-ying-pian-jin-hang-bian-shi-ba.md)
+* [【Google Colab Python系列】OpenAI Whisper: 語音辨識產生字幕檔](5.-asr-yu-yin-bian-shi-pian-openai-whisper/google-colab-python-xi-lie-openai-whisper-yu-yin-bian-shi-chan-sheng-zi-mu-dang.md)
