@@ -20,6 +20,8 @@ description: 📚 Learn Google Colab、Python、ML
 
 ### 交易策略回測篇
 
-* [【Google Colab Python系列】 技術指標回測 - KD策略](jiao-yi-ce-lve-hui-ce-pian/google-colab-python-xi-lie-ji-shu-zhi-biao-hui-ce-kd-ce-lve.md)
+* [【Google Colab Python系列】 技術指標回測 - KD策略](4.-jiao-yi-ce-lve-hui-ce-pian/google-colab-python-xi-lie-ji-shu-zhi-biao-hui-ce-kd-ce-lve.md)
 
-### ML篇
+### ASR語音辨識篇 - OpenAI Whisper
+
+* [【Google Colab Python系列】 初探Whisper: 來對一段Youtube影片進行辨識吧！](5.-asr-yu-yin-bian-shi-pian-openai-whisper/google-colab-python-xi-lie-chu-tan-whisper-lai-dui-yi-duan-youtube-ying-pian-jin-hang-bian-shi-ba.md)
