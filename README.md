@@ -23,6 +23,10 @@ description: 📚 Learn Google Colab、Python、ML
 * [【Google Colab Python系列】 初探Whisper: 來對一段Youtube影片進行辨識吧！](5.-asr-yu-yin-bian-shi-pian-openai-whisper/google-colab-python-xi-lie-chu-tan-whisper-lai-dui-yi-duan-youtube-ying-pian-jin-hang-bian-shi-ba.md)
 * [【Google Colab Python系列】OpenAI Whisper: 語音辨識產生字幕檔](5.-asr-yu-yin-bian-shi-pian-openai-whisper/google-colab-python-xi-lie-openai-whisper-yu-yin-bian-shi-chan-sheng-zi-mu-dang.md)
 
+### 自然語言處理 - NLP(Natural Language Processing)
+
+* [【自然語言處理NLP】初探強大的工具庫spaCy， 讓機器讀懂我們的語言](zi-ran-yu-yan-chu-li-nlpnatural-language-processing/zi-ran-yu-yan-chu-li-nlp-chu-tan-qiang-da-de-gong-ju-ku-spacy-rang-ji-qi-du-dong-wo-men-de-yu-yan.md)
+
 ### 交易策略回測篇
 
 * [【Google Colab Python系列】 技術指標回測 - KD策略](4.-jiao-yi-ce-lve-hui-ce-pian/google-colab-python-xi-lie-ji-shu-zhi-biao-hui-ce-kd-ce-lve.md)

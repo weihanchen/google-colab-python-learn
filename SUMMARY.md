@@ -14,3 +14,5 @@
 * [5 5. ASR語音辨識篇 - OpenAI Whisper](5.-asr-yu-yin-bian-shi-pian-openai-whisper/README.md)
   * [【Google Colab Python系列】 初探Whisper: 來對一段Youtube影片進行辨識吧！](5.-asr-yu-yin-bian-shi-pian-openai-whisper/google-colab-python-xi-lie-chu-tan-whisper-lai-dui-yi-duan-youtube-ying-pian-jin-hang-bian-shi-ba.md)
   * [【Google Colab Python系列】OpenAI Whisper: 語音辨識產生字幕檔](5.-asr-yu-yin-bian-shi-pian-openai-whisper/google-colab-python-xi-lie-openai-whisper-yu-yin-bian-shi-chan-sheng-zi-mu-dang.md)
+* [6 自然語言處理 - NLP(Natural Language Processing)](zi-ran-yu-yan-chu-li-nlpnatural-language-processing/README.md)
+  * [【自然語言處理NLP】初探強大的工具庫spaCy， 讓機器讀懂我們的語言](zi-ran-yu-yan-chu-li-nlpnatural-language-processing/zi-ran-yu-yan-chu-li-nlp-chu-tan-qiang-da-de-gong-ju-ku-spacy-rang-ji-qi-du-dong-wo-men-de-yu-yan.md)
