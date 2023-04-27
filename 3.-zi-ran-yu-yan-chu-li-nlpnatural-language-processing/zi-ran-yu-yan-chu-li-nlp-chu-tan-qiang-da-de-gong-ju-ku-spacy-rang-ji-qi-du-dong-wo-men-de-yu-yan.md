@@ -56,7 +56,7 @@ description: 當ChatGPT的出現，讓我們更需要理解AI的技術...
 
 `語句 --> Tokenizer --> 標記化 --> 停用詞去除 --> 詞形還原 --> 特徵提取`
 
-![Pipeline](https://spacy.io/images/pipeline\_transformer.svg)
+![圖片來源](https://spacy.io/images/pipeline\_transformer.svg)
 
 其中「Tokenizer」是管道中最先被執行的，也是最重要的一步，將文本切割成一個個的Token，也就是「詞」，後續才能進行詞性標注、停用詞移除、特徵擷取...等。
 
@@ -91,7 +91,7 @@ pd.DataFrame(dim, columns=columns)
 
 ```
 
-<figure><img src="../.gitbook/assets/解析.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/解析.png" alt=""><figcaption><p><a href="https://vocus.cc/article/644a799afd8978000134863c">圖片來源</a></p></figcaption></figure>
 
 ### 分析相依關係
 
@@ -116,7 +116,7 @@ options = {
 displacy.render(doc, style="dep", options=options)
 ```
 
-<figure><img src="../.gitbook/assets/dep.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/dep.png" alt=""><figcaption><p><a href="https://vocus.cc/article/644a799afd8978000134863c">圖片來源</a></p></figcaption></figure>
 
 ### Named Entity Recognition (NER)
 
@@ -136,7 +136,7 @@ for e in doc.ents:
 displacy.render(doc, style="ent", jupyter=True)
 ```
 
-<figure><img src="../.gitbook/assets/ner.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ner.png" alt=""><figcaption><p><a href="https://vocus.cc/article/644a799afd8978000134863c">圖片來源</a></p></figcaption></figure>
 
 今天的範例都在這裡「[📦 ](../jupyter-examples/goodinfo\_yield.ipynb)[scapy\_0.ipynb](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/scapy\_0.ipynb)」歡迎自行取用。
 
