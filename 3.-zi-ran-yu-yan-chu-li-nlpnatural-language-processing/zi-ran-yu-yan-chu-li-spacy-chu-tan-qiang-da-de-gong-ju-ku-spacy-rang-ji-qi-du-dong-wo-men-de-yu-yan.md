@@ -2,7 +2,7 @@
 description: 當ChatGPT的出現，讓我們更需要理解AI的技術...
 ---
 
-# 【自然語言處理NLP】初探強大的工具庫spaCy， 讓機器讀懂我們的語言
+# 【自然語言處理 - spaCy】初探強大的工具庫spaCy， 讓機器讀懂我們的語言
 
 上一篇章我們有提到「[【AI幫幫忙】機器如何識別我們的特徵？關鍵的Named Entity Recognition（NER）技術](https://vocus.cc/article/644860c9fd897800017b4177)」， 而NER是NLP自然語言處理的一部分， 而這一個篇章我們會以實作的形式來介紹自然語言處理中非常好用的一套工具「[spaCy](https://spacy.io/)」，spaCy被廣泛用於各種NLP任務，包括自然語言理解、信息提取、文本分類和語言生成等。
 
@@ -136,7 +136,7 @@ for e in doc.ents:
 displacy.render(doc, style="ent", jupyter=True)
 ```
 
-<figure><img src="../.gitbook/assets/ner.png" alt=""><figcaption><p><a href="https://vocus.cc/article/644a799afd8978000134863c">圖片來源</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/ner (1).png" alt=""><figcaption><p><a href="https://vocus.cc/article/644a799afd8978000134863c">圖片來源</a></p></figcaption></figure>
 
 今天的範例都在這裡「[📦 ](../jupyter-examples/goodinfo\_yield.ipynb)[scapy\_0.ipynb](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/scapy\_0.ipynb)」歡迎自行取用。
 

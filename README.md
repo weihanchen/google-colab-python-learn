@@ -15,7 +15,8 @@ description: 📚 Learn Google Colab、Python、ML
 
 ### 自然語言處理 - NLP(Natural Language Processing)
 
-* [【自然語言處理NLP】初探強大的工具庫spaCy， 讓機器讀懂我們的語言](3.-zi-ran-yu-yan-chu-li-nlpnatural-language-processing/zi-ran-yu-yan-chu-li-nlp-chu-tan-qiang-da-de-gong-ju-ku-spacy-rang-ji-qi-du-dong-wo-men-de-yu-yan.md)
+* [【自然語言處理 - spaCy】初探強大的工具庫spaCy， 讓機器讀懂我們的語言](3.-zi-ran-yu-yan-chu-li-nlpnatural-language-processing/zi-ran-yu-yan-chu-li-spacy-chu-tan-qiang-da-de-gong-ju-ku-spacy-rang-ji-qi-du-dong-wo-men-de-yu-yan.md)
+* [【自然語言處理 - spaCy】善用ChatGPT幫我們訓練出自訂的Name Entity Recognition實體](3.-zi-ran-yu-yan-chu-li-nlpnatural-language-processing/zi-ran-yu-yan-chu-li-spacy-shan-yong-chatgpt-bang-wo-men-xun-lian-chu-zi-ding-de-name-entity-recogni.md)
 
 ### Goodinfo! 爬蟲實戰篇
 
