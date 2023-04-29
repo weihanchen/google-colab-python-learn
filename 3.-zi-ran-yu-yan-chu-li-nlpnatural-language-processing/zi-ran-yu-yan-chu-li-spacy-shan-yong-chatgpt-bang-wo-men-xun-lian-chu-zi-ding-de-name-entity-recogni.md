@@ -8,7 +8,7 @@ description: 當ChatGPT的出現，讓我們更需要理解AI的技術...
 
 
 
-這個篇章主要在示範如何利用`spaCy`進行訓練，並非真正要準確做到滿分的NER，因此過程中將以「最簡短的例句」及「CPU」訓練方式完成。
+這個篇章主要在示範如何利用`spaCy`進行訓練，過程中也由於[🔥ChatGP](https://chat.openai.com/)T的出現，讓我們可以藉由它來快速產生例句，順利進行訓練，但並非真正要準確做到滿分的NER，因此過程中將以「最簡短的例句」及「CPU」訓練方式完成。
 
 
 
@@ -57,7 +57,7 @@ displacy.render(doc, style="ent", jupyter=True)
 
 #### 小技巧
 
-* 利用ChatGPT幫我們列出「東部國家」的一些例句， 如何給予提示(Prompt)，就讓大家創意發揮囉，例如: 請幫我列出5句關於「亞洲東部國家的一些特色」。
+* 利用[🔥ChatGPT](https://chat.openai.com/)幫我們列出「東部國家」的一些例句， 如何給予提示(Prompt)，就讓大家創意發揮囉，例如: 請幫我列出5句關於「亞洲東部國家的一些特色」。
 * 將這些例句藉由「[spacynerannotate](https://agateteam.org/spacynerannotate/)」這套工具幫我快速人工標出實體並轉換成`spaCy`訓練NER的格式， 雖然有點不太好用， 但為了快速Demo我們就將就點使用吧，另一套更好用的工具是「[prodigy](https://prodi.gy/)」，下次再獨立開一個篇章來玩玩這個標注套件。
 * 將轉換格式後的語句以`train`儲存起來。
 
