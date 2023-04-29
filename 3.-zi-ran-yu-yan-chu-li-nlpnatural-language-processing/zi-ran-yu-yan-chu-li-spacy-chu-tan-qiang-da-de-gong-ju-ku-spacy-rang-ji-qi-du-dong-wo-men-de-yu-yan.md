@@ -138,7 +138,7 @@ displacy.render(doc, style="ent", jupyter=True)
 
 <figure><img src="../.gitbook/assets/ner (1).png" alt=""><figcaption><p><a href="https://vocus.cc/article/644a799afd8978000134863c">圖片來源</a></p></figcaption></figure>
 
-今天的範例都在這裡「[📦 ](../jupyter-examples/goodinfo\_yield.ipynb)[scapy\_0.ipynb](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/scapy\_0.ipynb)」歡迎自行取用。
+今天的範例都在這裡「[📦 spacy\_0.ipynb](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/spacy\_0.ipynb)」歡迎自行取用。
 
 如何使用請參閱「[【Google Colab系列】台股分析預備式： Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S)」。
 
