@@ -49,7 +49,7 @@ from spacy import displacy
 displacy.render(doc, style="ent", jupyter=True)
 ```
 
-<figure><img src="../.gitbook/assets/ner.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ner.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/fTyoEZy">圖片來源</a></p></figcaption></figure>
 
 ### 設計訓練資料
 
@@ -117,7 +117,7 @@ db.to_disk("./train.spacy")
 
 P.S 這邊記得將`vectors="zh_core_web_lg"`改成`vectors="zh_core_web_trf"`
 
-<figure><img src="../.gitbook/assets/config.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/config.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/fTyoEZy">圖片來源</a></p></figcaption></figure>
 
 ### 填充完整的配置
 
@@ -157,7 +157,7 @@ new_doc = best_model("台灣是一個位於亞洲東部的島嶼國家。")
 displacy.render(new_doc, style="ent", jupyter=True)
 ```
 
-<figure><img src="../.gitbook/assets/result.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/result.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/fTyoEZy">圖片來源</a></p></figcaption></figure>
 
 
 
