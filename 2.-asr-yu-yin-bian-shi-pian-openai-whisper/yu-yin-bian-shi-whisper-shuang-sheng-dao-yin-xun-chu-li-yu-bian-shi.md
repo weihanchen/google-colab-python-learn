@@ -2,13 +2,17 @@
 description: 讓我們更深入了解語音辨識技術吧！ 音訊處理的基石
 ---
 
-# 【語音辨識 - Whisper】 雙聲道分離進行辨識
+# 【語音辨識 - Whisper】 雙聲道音訊處理與辨識
 
 假設我們有一段雙聲道的音檔, 正常來說透過[whisper](https://github.com/openai/whisper)進行語音辨識時都是以整段音檔進行辨識,但我們若想將左右聲道分離進行辨識的話就得對音檔進行音訊處理了。
 
 怎麼做呢？ 比較簡單的方式就是透過音訊處理工具將音檔進行左右聲道的分離，再獨立的進行辨識即可。
 
 這次會將雙聲道音檔透過[pydub](https://github.com/jiaaro/pydub)這套音訊處理工具進行分離，再分別以`numpy.ndarray`的格式傳遞給whisper進行辨識。
+
+
+
+<figure><img src="../.gitbook/assets/stereo_mono.drawio.png" alt=""><figcaption></figcaption></figure>
 
 ### 工具安裝
 
