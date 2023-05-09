@@ -10,8 +10,9 @@ description: 📚 Learn Google Colab、Python、ML
 
 ### ASR語音辨識篇 - OpenAI Whisper
 
-* [【Google Colab Python系列】 初探Whisper: 來對一段Youtube影片進行辨識吧！](2.-asr-yu-yin-bian-shi-pian-openai-whisper/google-colab-python-xi-lie-chu-tan-whisper-lai-dui-yi-duan-youtube-ying-pian-jin-hang-bian-shi-ba.md)
-* [【Google Colab Python系列】OpenAI Whisper: 語音辨識產生字幕檔](2.-asr-yu-yin-bian-shi-pian-openai-whisper/google-colab-python-xi-lie-openai-whisper-yu-yin-bian-shi-chan-sheng-zi-mu-dang.md)
+* [【語音辨識 - Whisper】 初探Whisper: 來對一段Youtube影片進行辨識吧！](2.-asr-yu-yin-bian-shi-pian-openai-whisper/yu-yin-bian-shi-whisper-chu-tan-whisper-lai-dui-yi-duan-youtube-ying-pian-jin-hang-bian-shi-ba.md)
+* [【語音辨識 - Whisper】OpenAI Whisper: 語音辨識產生字幕檔](2.-asr-yu-yin-bian-shi-pian-openai-whisper/yu-yin-bian-shi-whisperopenai-whisper-yu-yin-bian-shi-chan-sheng-zi-mu-dang.md)
+* [【語音辨識 - Whisper】 雙聲道分離進行辨識](2.-asr-yu-yin-bian-shi-pian-openai-whisper/yu-yin-bian-shi-whisper-shuang-sheng-dao-fen-li-jin-hang-bian-shi.md)
 
 ### 自然語言處理 - NLP(Natural Language Processing)
 
