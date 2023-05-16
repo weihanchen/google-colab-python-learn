@@ -158,4 +158,4 @@ displacy.render(doc, style="ent", jupyter=True)
 
 [Web3.0時代下為創作者、閱讀者打造的專屬共贏平台 - 為什麼要加入？](https://www.potatomedia.co/s/2PmFxsq)
 
-歡迎加入一起練習寫作，賺取知識，累積財富！
+歡迎加入一起練習寫作，賺取知識！
