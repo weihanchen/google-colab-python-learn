@@ -9,6 +9,7 @@
   * [【語音辨識 - Whisper】 雙聲道音訊處理與辨識](2.-asr-yu-yin-bian-shi-pian-openai-whisper/yu-yin-bian-shi-whisper-shuang-sheng-dao-yin-xun-chu-li-yu-bian-shi.md)
 * [3 3. 自然語言處理 - NLP(Natural Language Processing)](3.-zi-ran-yu-yan-chu-li-nlpnatural-language-processing/README.md)
   * [【自然語言處理 - 概念篇】最基礎的Bag-of-Words模型是什麼呢？](3.-zi-ran-yu-yan-chu-li-nlpnatural-language-processing/zi-ran-yu-yan-chu-li-gai-nian-pian-zui-ji-chu-de-bagofwords-mo-xing-shi-shi-mo-ni.md)
+  * [【自然語言處理 - 概念篇】 來認識一下詞向量(Word Embedding or Word Vector)吧](3.-zi-ran-yu-yan-chu-li-nlpnatural-language-processing/zi-ran-yu-yan-chu-li-gai-nian-pian-lai-ren-shi-yi-xia-ci-xiang-liang-word-embedding-or-word-vector-b.md)
   * [【自然語言處理 - spaCy】初探強大的工具庫spaCy， 讓機器讀懂我們的語言](3.-zi-ran-yu-yan-chu-li-nlpnatural-language-processing/zi-ran-yu-yan-chu-li-spacy-chu-tan-qiang-da-de-gong-ju-ku-spacy-rang-ji-qi-du-dong-wo-men-de-yu-yan.md)
   * [【自然語言處理 - spaCy】善用ChatGPT幫我們訓練出自訂的Name Entity Recognition實體](3.-zi-ran-yu-yan-chu-li-nlpnatural-language-processing/zi-ran-yu-yan-chu-li-spacy-shan-yong-chatgpt-bang-wo-men-xun-lian-chu-zi-ding-de-name-entity-recogni.md)
 * [4 4. Goodinfo! 爬蟲實戰篇](goodinfo-pa-chong-shi-zhan-pian/README.md)
