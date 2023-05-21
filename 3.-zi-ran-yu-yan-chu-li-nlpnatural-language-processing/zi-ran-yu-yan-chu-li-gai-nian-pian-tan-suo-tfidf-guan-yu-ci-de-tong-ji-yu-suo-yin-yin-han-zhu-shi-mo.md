@@ -203,3 +203,23 @@ plt.show()
 ```
 
 <figure><img src="../.gitbook/assets/下載.png" alt=""><figcaption></figcaption></figure>
+
+### 結語
+
+逐步拆解之後才知道原來「詞」的統計隱含著這麼多的寶貴資訊，透過一些演算方式讓機器可以預估可能的語意、分類...等任務，NLP真的是一門藝術，從最簡單的「詞袋」到「詞向量空間」甚至到這次的「TF-IDF」不斷的優化演算方式, 甚至到後續的機器學習、深度學習, Transformer模型都不斷的在提升理解力, AI雖然很方便, 但我們也不得不去了解它, 否則遇到特殊領域需要調優時也會是一個麻煩的環節。
+
+
+
+今天的範例都在這裡「[📦 ](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/nlp/bow.ipynb)[tf\_idf.ipynb](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/nlp/tf\_idf.ipynb)」歡迎自行取用。
+
+如何使用請參閱「[【Google Colab系列】台股分析預備式： Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S)」。
+
+
+
+\------------------------------------------------------------------------------------------------
+
+喜歡撰寫文章的你，不妨來了解一下：
+
+[Web3.0時代下為創作者、閱讀者打造的專屬共贏平台 - 為什麼要加入？](https://www.potatomedia.co/s/2PmFxsq)
+
+歡迎加入一起練習寫作，賺取知識！
