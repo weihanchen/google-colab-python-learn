@@ -19,6 +19,7 @@ description: 📚 Learn Google Colab、Python、ML、NLP、ASR
 * [【自然語言處理 - 概念篇】最基礎的Bag-of-Words模型是什麼呢？](3.-zi-ran-yu-yan-chu-li-nlpnatural-language-processing/zi-ran-yu-yan-chu-li-gai-nian-pian-zui-ji-chu-de-bagofwords-mo-xing-shi-shi-mo-ni.md)
 * [【自然語言處理 - 概念篇】 來認識一下詞向量(Word Embedding or Word Vector)吧](3.-zi-ran-yu-yan-chu-li-nlpnatural-language-processing/zi-ran-yu-yan-chu-li-gai-nian-pian-lai-ren-shi-yi-xia-ci-xiang-liang-word-embedding-or-word-vector-b.md)
 * [【自然語言處理 - 概念篇】 探索TF-IDF, 關於詞的統計與索引隱含著什麼奧秘呢？](3.-zi-ran-yu-yan-chu-li-nlpnatural-language-processing/zi-ran-yu-yan-chu-li-gai-nian-pian-tan-suo-tfidf-guan-yu-ci-de-tong-ji-yu-suo-yin-yin-han-zhu-shi-mo.md)
+* [【自然語言處理 - 概念篇】 詞性標注POS在NLP的世界扮演什麼樣的角色呢?](3.-zi-ran-yu-yan-chu-li-nlpnatural-language-processing/zi-ran-yu-yan-chu-li-gai-nian-pian-ci-xing-biao-zhu-pos-zai-nlp-de-shi-jie-ban-yan-shi-mo-yang-de-ji.md)
 * [【自然語言處理 - spaCy】初探強大的工具庫spaCy， 讓機器讀懂我們的語言](3.-zi-ran-yu-yan-chu-li-nlpnatural-language-processing/zi-ran-yu-yan-chu-li-spacy-chu-tan-qiang-da-de-gong-ju-ku-spacy-rang-ji-qi-du-dong-wo-men-de-yu-yan.md)
 * [【自然語言處理 - spaCy】善用ChatGPT幫我們訓練出自訂的Name Entity Recognition實體](3.-zi-ran-yu-yan-chu-li-nlpnatural-language-processing/zi-ran-yu-yan-chu-li-spacy-shan-yong-chatgpt-bang-wo-men-xun-lian-chu-zi-ding-de-name-entity-recogni.md)
 
