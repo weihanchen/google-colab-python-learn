@@ -10,7 +10,7 @@ Part-of-Speech Tagging, POS是詞性標注的全名, 主要為詞彙標上語言
 
 * [【自然語言處理 — 概念篇】最基礎的Bag-of-Words模型是什麼呢?](https://vocus.cc/article/646b60adfd89780001aae7f4)
 * [【自然語言處理 - 概念篇】 來認識一下詞向量(Word Embedding or Word Vector)吧](https://www.potatomedia.co/s/bsKx5GfV)
-* 【自然語言處理 - 概念篇】 探索TF-IDF, 關於詞的統計與索引隱含著什麼奧秘呢？
+* [【自然語言處理 - 概念篇】 探索TF-IDF, 關於詞的統計與索引隱含著什麼奧秘呢？](https://www.potatomedia.co/s/bVIUUxZD)
 
 但上述的基礎知識都是將「詞」進行量化處理， 以統計的方式估算出相鄰的詞彙, 進行組合, 但這樣缺少了我們人類語言學的一些特徵, 因此才需要針對「詞」加入一些我們語言學的元素, 像是「詞性」就是一個例子, 「看」是一個動詞, 那什麼詞性可以去修飾動詞或者相互依賴就是我們下一個篇章「【自然語言處理 - spaCy】 拆解語句組成的規則, 何謂依存句法分析(Dependency Parsing)?」在介紹的部分, 而這邊主要在說明中文詞性標注POS的部分。
 
