@@ -4,7 +4,11 @@ description: AI原來離我們那麼近...
 
 # 【Hugging Face】Ep.2 初探新手村, 打造專屬的翻譯官
 
-<figure><img src="../.gitbook/assets/下載 (4) (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/下載 (4).jpg" alt=""><figcaption></figcaption></figure>
+
+我們已經介紹過關於Transformer模型的平台「[【Hugging Face】Ep.1 平凡人也能玩的起的AI平台](https://vocus.cc/article/649d7961fd89780001b63b0a)」，而這次就來實際動手進行開發，讓我們自己的AI自己做。
+
+
 
 由於AI模型的訓練往往都會比較耗時， 因此建議需要有GPU環境會比較有效率一些， 否則訓練模行動輒好幾個小時才能看到結果， 一來一往之間， 當我們調好一版可用的模型時已經浪費了不少青春去了…。
 
@@ -105,7 +109,7 @@ translator('這是一個很困難的問題')
 
 最終得到翻譯結果。
 
-<figure><img src="../.gitbook/assets/colab運行結果 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/colab運行結果.png" alt=""><figcaption></figcaption></figure>
 
 今天的範例都在這裡「[📦](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/spacy\_1.ipynb)[huggingface/opus\_mt\_zh\_en.ipynb](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/huggingface/opus\_mt\_zh\_en.ipynb)」歡迎自行取用。
 
