@@ -26,7 +26,7 @@ description: AI原來離我們那麼近...
 
 如果有興趣的朋友請至這裡參考參考: [https://huggingface.co/docs/hub/index](https://huggingface.co/docs/hub/index)
 
-![hub.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/59a84e4f-8c8d-4a96-8071-9f2308267a09/hub.png)
+<figure><img src="../.gitbook/assets/hub (1).png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/aHvvQP3M">圖片來源</a></p></figcaption></figure>
 
 我們可以發現到除了模型以外， 資料集、靜態網頁空間、報告空間..， 非常的豐富， 讓我們可以將開發好的專案完整的放置Hub之上， 透過學習交流的方式加快人工智慧的進程。
 

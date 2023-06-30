@@ -5,6 +5,7 @@
   * [【Google Colab Python系列】Colab平台與Python如何擦出火花？](ji-chu-pian/google-colab-xi-lie-colab-ping-tai-yu-python-ru-he-ca-chu-huo-hua.md)
 * [Hugging Face篇](hugging-face-pian/README.md)
   * [【Hugging Face】Ep.1 平凡人也能玩的起的AI平台](hugging-face-pian/hugging-faceep.1-ping-fan-ren-ye-neng-wan-de-qi-de-ai-ping-tai.md)
+  * [【Hugging Face】Ep.2 初探新手村, 打造專屬的翻譯官](hugging-face-pian/hugging-faceep.2-chu-tan-xin-shou-cun-da-zao-zhuan-shu-de-fan-yi-guan.md)
 * [ASR語音辨識篇 - OpenAI Whisper](asr-yu-yin-bian-shi-pian-openai-whisper/README.md)
   * [【語音辨識 - Whisper】 初探Whisper: 來對一段Youtube影片進行辨識吧！](asr-yu-yin-bian-shi-pian-openai-whisper/yu-yin-bian-shi-whisper-chu-tan-whisper-lai-dui-yi-duan-youtube-ying-pian-jin-hang-bian-shi-ba.md)
   * [【語音辨識 - Whisper】OpenAI Whisper: 語音辨識產生字幕檔](asr-yu-yin-bian-shi-pian-openai-whisper/yu-yin-bian-shi-whisperopenai-whisper-yu-yin-bian-shi-chan-sheng-zi-mu-dang.md)
