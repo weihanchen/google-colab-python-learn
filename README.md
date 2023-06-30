@@ -12,6 +12,7 @@ description: 📚 Learn Google Colab、Python、ML、NLP、ASR
 
 * [【Hugging Face】Ep.1 平凡人也能玩的起的AI平台](hugging-face-pian/hugging-faceep.1-ping-fan-ren-ye-neng-wan-de-qi-de-ai-ping-tai.md)
 * [【Hugging Face】Ep.2 初探新手村, 打造專屬的翻譯官](hugging-face-pian/hugging-faceep.2-chu-tan-xin-shou-cun-da-zao-zhuan-shu-de-fan-yi-guan.md)
+* [【Hugging Face】Ep.3 前往Datasets掏金趣](hugging-face-pian/hugging-faceep.3-qian-wang-datasets-tao-jin-qu.md)
 
 ### ASR語音辨識篇 - OpenAI Whisper
 

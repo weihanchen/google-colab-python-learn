@@ -53,7 +53,7 @@ docker compose up -d
 
 再來開啟jupyter的網站:[http://127.0.0.1:8888/login](http://127.0.0.1:8888/login)， 然後將token=text輸入就可以進行登錄了。
 
-<figure><img src="../.gitbook/assets/打上token.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/打上token (1).png" alt=""><figcaption></figcaption></figure>
 
 登入成功之後， 我們就可以來創建一個筆記本。
 
@@ -109,7 +109,7 @@ translator('這是一個很困難的問題')
 
 最終得到翻譯結果。
 
-<figure><img src="../.gitbook/assets/colab運行結果.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/colab運行結果 (1).png" alt=""><figcaption></figcaption></figure>
 
 今天的範例都在這裡「[📦](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/spacy\_1.ipynb)[huggingface/opus\_mt\_zh\_en.ipynb](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/huggingface/opus\_mt\_zh\_en.ipynb)」歡迎自行取用。
 

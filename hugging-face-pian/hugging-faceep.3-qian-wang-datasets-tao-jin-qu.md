@@ -4,6 +4,10 @@ description: AI原來離我們那麼近...
 
 # 【Hugging Face】Ep.3 前往Datasets掏金趣
 
+<figure><img src="../.gitbook/assets/下載 (6).jpg" alt=""><figcaption></figcaption></figure>
+
+
+
 上一篇「【Hugging Face】Ep.2 初探新手村, 打造專屬的翻譯官」我們學習到如何架設起Hugging Face的環境了，接下來我們就介紹一下重要的Datasets吧！
 
 
