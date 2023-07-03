@@ -8,7 +8,7 @@ description: AI原來離我們那麼近...
 
 
 
-上一篇「【Hugging Face】Ep.2 初探新手村, 打造專屬的翻譯官」我們學習到如何架設起Hugging Face的環境了，接下來我們就介紹一下重要的Datasets吧！
+上一篇「[【Hugging Face】Ep.2 初探新手村, 打造專屬的翻譯官](https://vocus.cc/article/64a013ecfd89780001601391)」我們學習到如何架設起Hugging Face的環境了，接下來我們就介紹一下重要的Datasets吧！
 
 
 
@@ -106,6 +106,20 @@ ds1[:3]
 
 上面我們介紹了基本用法，需要更多資料集的操作方式請參考「[datasets/process](https://huggingface.co/docs/datasets/process)」。
 
+
+
+今天的範例都在這裡「[📦](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/spacy\_1.ipynb)[huggingface/hugging\_face\_datasets.ipynb](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/huggingface/hugging\_face\_datasets.ipynb)」歡迎自行取用。
+
+如何使用請參閱「[【Google Colab系列】台股分析預備式： Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S)」。
+
 ### 結語
 
 看起來HuggingFace除了很好的管控資料集之外， 也設計了非常強大的資料集處理API， 最重要的是非常有遠見， 一開始就制定好規範， 大家只要照著標準化的方式上傳資料集就能夠使用標準的API進行資料集處理。
+
+
+
+喜歡撰寫文章的你，不妨來了解一下：
+
+[Web3.0時代下為創作者、閱讀者打造的專屬共贏平台 - 為什麼要加入？](https://www.potatomedia.co/s/2PmFxsq)
+
+歡迎加入一起練習寫作，賺取知識！
