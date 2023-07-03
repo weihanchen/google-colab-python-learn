@@ -4,7 +4,7 @@ description: AI原來離我們那麼近...
 
 # 【Hugging Face】Ep.2 初探新手村, 打造專屬的翻譯官
 
-<figure><img src="../.gitbook/assets/下載 (4) (1).jpg" alt=""><figcaption><p><a href="https://vocus.cc/article/64a013ecfd89780001601391">圖片來源</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/下載 (4).jpg" alt=""><figcaption><p><a href="https://vocus.cc/article/64a013ecfd89780001601391">圖片來源</a></p></figcaption></figure>
 
 我們已經介紹過關於Transformer模型的平台「[【Hugging Face】Ep.1 平凡人也能玩的起的AI平台](https://vocus.cc/article/649d7961fd89780001b63b0a)」，而這次就來實際動手進行開發，讓我們自己的AI自己做。
 
@@ -53,7 +53,7 @@ docker compose up -d
 
 再來開啟jupyter的網站:[http://127.0.0.1:8888/login](http://127.0.0.1:8888/login)， 然後將token=text輸入就可以進行登錄了。
 
-<figure><img src="../.gitbook/assets/打上token (1).png" alt=""><figcaption><p><a href="https://vocus.cc/article/64a013ecfd89780001601391">圖片來源</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/打上token.png" alt=""><figcaption><p><a href="https://vocus.cc/article/64a013ecfd89780001601391">圖片來源</a></p></figcaption></figure>
 
 登入成功之後， 我們就可以來創建一個筆記本。
 

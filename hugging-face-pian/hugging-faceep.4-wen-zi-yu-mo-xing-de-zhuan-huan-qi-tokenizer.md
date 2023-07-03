@@ -118,7 +118,7 @@ tokenizer.save_pretrained("custom")
 
 
 
-今天的範例都在這裡「[📦 huggingface/huggingface\_ner.ipynb迎](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/huggingface/huggingface\_ner.ipynb)自行取用。
+今天的範例都在這裡「[📦 huggingface/tokenizers.ipynb」](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/huggingface/tokenizers.ipynb)歡迎自行取用。
 
 如何使用請參閱「[【Google Colab系列】台股分析預備式： Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S)」。
 
