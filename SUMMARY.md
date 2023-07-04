@@ -8,6 +8,7 @@
   * [【Hugging Face】Ep.2 初探新手村, 打造專屬的翻譯官](hugging-face-pian/hugging-faceep.2-chu-tan-xin-shou-cun-da-zao-zhuan-shu-de-fan-yi-guan.md)
   * [【Hugging Face】Ep.3 前往Datasets掏金趣](hugging-face-pian/hugging-faceep.3-qian-wang-datasets-tao-jin-qu.md)
   * [【Hugging Face】Ep.4 文字與模型的轉換器Tokenizer](hugging-face-pian/hugging-faceep.4-wen-zi-yu-mo-xing-de-zhuan-huan-qi-tokenizer.md)
+  * [【Hugging Face】Ep.5 文字世界中的超能力語言英雄(Named Entity Recognition)](hugging-face-pian/hugging-faceep.5-wen-zi-shi-jie-zhong-de-chao-neng-li-yu-yan-ying-xiong-named-entity-recognition.md)
 * [ASR語音辨識篇 - OpenAI Whisper](asr-yu-yin-bian-shi-pian-openai-whisper/README.md)
   * [【語音辨識 - Whisper】 初探Whisper: 來對一段Youtube影片進行辨識吧！](asr-yu-yin-bian-shi-pian-openai-whisper/yu-yin-bian-shi-whisper-chu-tan-whisper-lai-dui-yi-duan-youtube-ying-pian-jin-hang-bian-shi-ba.md)
   * [【語音辨識 - Whisper】OpenAI Whisper: 語音辨識產生字幕檔](asr-yu-yin-bian-shi-pian-openai-whisper/yu-yin-bian-shi-whisperopenai-whisper-yu-yin-bian-shi-chan-sheng-zi-mu-dang.md)
