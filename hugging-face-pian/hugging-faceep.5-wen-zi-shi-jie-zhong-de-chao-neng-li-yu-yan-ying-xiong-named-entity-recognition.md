@@ -4,7 +4,7 @@ description: AI原來離我們那麼近...
 
 # 【Hugging Face】Ep.5 文字世界中的超能力語言英雄(Named Entity Recognition)
 
-<figure><img src="../.gitbook/assets/下載 (7).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/下載 (7).jpg" alt=""><figcaption><p><a href="https://vocus.cc/article/64a42269fd89780001589eca">圖片來源</a></p></figcaption></figure>
 
 這次來介紹一下NLP自然語言處理中重要的一個任務「命名實體識別(Named Entity Recognition)」， 這個任務主要識別出「人名」、「地名」、「公司」…等實體， 透過這些實體辨識結果， 可以近一步的理解意圖， 甚至判斷出該文章主要在講什麼重點…等。
 
@@ -14,7 +14,7 @@ description: AI原來離我們那麼近...
 
 在「[【Hugging Face】Ep.3 前往Dataset掏金趣](https://vocus.cc/article/64a2c62afd897800018a8185)」我們有介紹過HuggingFace平台如何精準的找出我們需要的模型， 那這次我們要找的任務是「Token Classification」，語言為「Chinese」， 我們就來選用最多人使用的「[xlm-roberta-large-finetuned-conll03-english](https://huggingface.co/xlm-roberta-large-finetuned-conll03-english)」吧！
 
-<figure><img src="../.gitbook/assets/找NER模型 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/找NER模型 (1).png" alt=""><figcaption><p><a href="https://vocus.cc/article/64a42269fd89780001589eca">圖片來源</a></p></figcaption></figure>
 
 ### 準備文本
 
@@ -42,7 +42,7 @@ results = ner("台灣是一個非常美麗的地區")
 pd.DataFrame(results)
 ```
 
-<figure><img src="../.gitbook/assets/ner結果.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ner結果.png" alt=""><figcaption><p><a href="https://vocus.cc/article/64a42269fd89780001589eca">圖片來源</a></p></figcaption></figure>
 
 上述的結果辨識出「台灣」是一個「I-LOC」的實體， 當然這個實體的標籤我們也可以自己去定義它。
 
@@ -59,3 +59,13 @@ pd.DataFrame(results)
 [Web3.0時代下為創作者、閱讀者打造的專屬共贏平台 - 為什麼要加入？](https://www.potatomedia.co/s/2PmFxsq)
 
 歡迎加入一起練習寫作，賺取知識！
+
+
+
+### 更多關於【Hugging Face 系列】…
+
+* [【Hugging Face】Ep.1 平凡人也能玩的起的AI平台](https://vocus.cc/article/649d7961fd89780001b63b0a)
+* [【Hugging Face】Ep.2 初探新手村, 打造專屬的翻譯官](https://vocus.cc/article/64a013ecfd89780001601391)
+* [【Hugging Face】Ep.3 前往Datasets掏金趣](https://vocus.cc/article/64a2c62afd897800018a8185)
+* [【Hugging Face】Ep.4 文字與模型的轉換器Tokenizer](https://vocus.cc/article/64a34d8dfd8978000190e556)
+* [【Hugging Face】Ep.5 文字世界中的超能力語言英雄(Named Entity Recognition)](https://vocus.cc/article/64a42269fd89780001589eca)
