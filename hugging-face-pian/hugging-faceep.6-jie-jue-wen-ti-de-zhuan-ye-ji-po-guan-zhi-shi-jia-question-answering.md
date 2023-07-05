@@ -10,7 +10,7 @@ QA問答是自然語言處理NLP中蠻困難的一項任務， 必須從一段�
 
 ### 找看看有哪些可用模型
 
-在「【Hugging Face】Ep.3 前往Dataset掏金趣」我們有介紹過HuggingFace平台如何精準的找出我們需要的模型， 那這次我們要找的任務是「Question Answering」，語言為「Chinese」， 我們就來選用最多人使用的「[timpal0l/mdeberta-v3-base-squad2](https://huggingface.co/timpal0l/mdeberta-v3-base-squad2)」吧！
+在「[【Hugging Face】Ep.3 前往Dataset掏金趣](https://vocus.cc/article/64a2c62afd897800018a8185)」我們有介紹過HuggingFace平台如何精準的找出我們需要的模型， 那這次我們要找的任務是「Question Answering」，語言為「Chinese」， 我們就來選用最多人使用的「[timpal0l/mdeberta-v3-base-squad2](https://huggingface.co/timpal0l/mdeberta-v3-base-squad2)」吧！
 
 <figure><img src="../.gitbook/assets/找QA模型 (1).png" alt=""><figcaption></figcaption></figure>
 
