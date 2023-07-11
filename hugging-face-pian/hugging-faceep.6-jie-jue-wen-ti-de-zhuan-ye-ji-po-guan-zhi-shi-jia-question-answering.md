@@ -4,7 +4,7 @@ description: AI原來離我們那麼近...
 
 # 【Hugging Face】Ep.6 解決問題的專業級破關知識家(Question Answering)
 
-<figure><img src="../.gitbook/assets/知識專家.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/知識專家.jpeg" alt=""><figcaption><p><a href="https://vocus.cc/article/64ad426cfd89780001f0f010">圖片來源</a></p></figcaption></figure>
 
 QA問答是自然語言處理NLP中蠻困難的一項任務， 必須從一段文本中識別出使用者的提問，像搜尋引擎就是一種QA的應用， 從眾多的問題中找答案， 那就讓我們親手來打造一下自己專屬的QA系統吧！
 
@@ -12,7 +12,7 @@ QA問答是自然語言處理NLP中蠻困難的一項任務， 必須從一段�
 
 在「[【Hugging Face】Ep.3 前往Dataset掏金趣](https://vocus.cc/article/64a2c62afd897800018a8185)」我們有介紹過HuggingFace平台如何精準的找出我們需要的模型， 那這次我們要找的任務是「Question Answering」，語言為「Chinese」， 我們就來選用最多人使用的「[timpal0l/mdeberta-v3-base-squad2](https://huggingface.co/timpal0l/mdeberta-v3-base-squad2)」吧！
 
-<figure><img src="../.gitbook/assets/找QA模型 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/找QA模型 (1).png" alt=""><figcaption><p><a href="https://vocus.cc/article/64ad426cfd89780001f0f010">圖片來源</a></p></figcaption></figure>
 
 ### 安裝套件
 
@@ -69,7 +69,7 @@ for question in questions:
   print(result['answer'])
 ```
 
-<figure><img src="../.gitbook/assets/QA回答.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/QA回答.png" alt=""><figcaption><p><a href="https://vocus.cc/article/64ad426cfd89780001f0f010">圖片來源</a></p></figcaption></figure>
 
 今天的範例都在這裡「[📦huggingface/huggingface\_qa.ipynb](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/huggingface/huggingface\_qa.ipynb)」歡迎自行取用。
 
@@ -84,3 +84,14 @@ for question in questions:
 [Web3.0時代下為創作者、閱讀者打造的專屬共贏平台 - 為什麼要加入？](https://www.potatomedia.co/s/2PmFxsq)
 
 歡迎加入一起練習寫作，賺取知識！
+
+
+
+### 更多關於【Hugging Face 系列】…
+
+* [【Hugging Face】Ep.1 平凡人也能玩的起的AI平台](https://vocus.cc/article/649d7961fd89780001b63b0a)
+* [【Hugging Face】Ep.2 初探新手村, 打造專屬的翻譯官](https://vocus.cc/article/64a013ecfd89780001601391)
+* [【Hugging Face】Ep.3 前往Datasets掏金趣](https://vocus.cc/article/64a2c62afd897800018a8185)
+* [【Hugging Face】Ep.4 文字與模型的轉換器Tokenizer](https://vocus.cc/article/64a34d8dfd8978000190e556)
+* [【Hugging Face】Ep.5 文字世界中的超能力語言英雄(Named Entity Recognition)](https://vocus.cc/article/64a42269fd89780001589eca)
+* [【Hugging Face】Ep.6 解決問題的專業級破關知識家(Question Answering)](https://vocus.cc/article/64ad426cfd89780001f0f010)
