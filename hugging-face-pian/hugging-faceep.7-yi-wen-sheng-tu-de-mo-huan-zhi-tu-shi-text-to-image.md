@@ -17,7 +17,7 @@ description: AI原來離我們那麼近...
 
  
 
-<figure><img src="../.gitbook/assets/text2img.drawio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/text2img.drawio.png" alt=""><figcaption><p><a href="https://vocus.cc/article/64aea57ffd89780001075213">圖片來源</a></p></figcaption></figure>
 
 </div>
 
@@ -57,7 +57,7 @@ image = t2i(prompt).images[0]
 image
 ```
 
-<figure><img src="../.gitbook/assets/No (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/No (1).png" alt=""><figcaption><p><a href="https://vocus.cc/article/64aea57ffd89780001075213">圖片來源</a></p></figcaption></figure>
 
 我們期望有蘋果、有窗， But…怎麼會是這樣呢？ 這是什麼鬼?
 
@@ -92,7 +92,7 @@ image
 
 ```
 
-<figure><img src="../.gitbook/assets/正確的圖片.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/正確的圖片.png" alt=""><figcaption><p><a href="https://vocus.cc/article/64aea57ffd89780001075213">圖片來源</a></p></figcaption></figure>
 
 看起來正常多了， 有窗、有蘋果， 基本上都滿足我們提出的需求。
 
