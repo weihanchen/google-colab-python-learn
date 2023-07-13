@@ -17,6 +17,7 @@ description: 📚 Learn Google Colab、Python、ML、NLP、ASR
 * [【Hugging Face】Ep.5 文字世界中的超能力語言英雄(Named Entity Recognition)](hugging-face-pian/hugging-faceep.5-wen-zi-shi-jie-zhong-de-chao-neng-li-yu-yan-ying-xiong-named-entity-recognition.md)
 * [【Hugging Face】Ep.6 解決問題的專業級破關知識家(Question Answering)](hugging-face-pian/hugging-faceep.6-jie-jue-wen-ti-de-zhuan-ye-ji-po-guan-zhi-shi-jia-question-answering.md)
 * [【Hugging Face】Ep.7 以文生圖的魔幻製圖師(Text To Image)](hugging-face-pian/hugging-faceep.7-yi-wen-sheng-tu-de-mo-huan-zhi-tu-shi-text-to-image.md)
+* [【Hugging Face】Ep.8 專業的標準化推理家(Inference API)](hugging-face-pian/hugging-faceep.8-zhuan-ye-de-biao-zhun-hua-tui-li-jia-inference-api.md)
 
 ### ASR語音辨識篇 - OpenAI Whisper
 
