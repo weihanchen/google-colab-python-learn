@@ -56,9 +56,23 @@ description: AI原來離我們那麼近...
 
 使用起來非常簡單, 我們只要使用pipeline搭配指定的任務， 就能進行簡單的AI任務， 以這裡的範例為例， 我們會使用「automatic-speech-recognition」語音辨識的任務來進行。
 
-並指定「ydshieh/wav2vec2-large-xlsr-53-chinese-zh-cn-gpt」這個中文模型進行語音辨識。
+並指定「[ydshieh/wav2vec2-large-xlsr-53-chinese-zh-cn-gpt](https://huggingface.co/ydshieh/wav2vec2-large-xlsr-53-chinese-zh-cn-gpt)」這個中文模型進行語音辨識。
 
-最後直接將音檔進行辨識，產生文字， 整個操作流程非常簡易。
+
+
+#### 如何找模型呢？
+
+我們可以在[Hugging fa](https://huggingface.co/)[ce](https://huggingface.co/)首頁直接進行搜尋。
+
+<figure><img src="../.gitbook/assets/搜尋模型.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/aHvvQP3M">圖片來源</a></p></figcaption></figure>
+
+也可以到[模型區](https://huggingface.co/models)進行精確的篩選。
+
+<figure><img src="../.gitbook/assets/模型區篩選.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/aHvvQP3M">圖片來源</a></p></figcaption></figure>
+
+
+
+找到模型之後我們就直接將音檔進行辨識，產生文字， 整個操作流程非常簡易。
 
 ```python
 import torch
@@ -90,7 +104,7 @@ text
 
 
 
-### 更多關於【Hugging Face 系列】…
+#### 更多關於【Hugging Face 系列】…
 
 * [【Hugging Face】Ep.1 平凡人也能玩的起的AI平台](https://vocus.cc/article/649d7961fd89780001b63b0a)
 * [【Hugging Face】Ep.2 初探新手村, 打造專屬的翻譯官](https://vocus.cc/article/64a013ecfd89780001601391)
@@ -98,3 +112,4 @@ text
 * [【Hugging Face】Ep.4 文字與模型的轉換器Tokenizer](https://vocus.cc/article/64a34d8dfd8978000190e556)
 * [【Hugging Face】Ep.5 文字世界中的超能力語言英雄(Named Entity Recognition)](https://vocus.cc/article/64a42269fd89780001589eca)
 * [【Hugging Face】Ep.6 解決問題的專業級破關知識家(Question Answering)](https://vocus.cc/article/64ad426cfd89780001f0f010)
+* [【Hugging Face】Ep.7 以文生圖的魔幻製圖師(Text To Image)](https://vocus.cc/article/64aea57ffd89780001075213)
