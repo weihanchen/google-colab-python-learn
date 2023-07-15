@@ -16,6 +16,7 @@
   * [【語音辨識 - Whisper】 初探Whisper: 來對一段Youtube影片進行辨識吧！](asr-yu-yin-bian-shi-pian-openai-whisper/yu-yin-bian-shi-whisper-chu-tan-whisper-lai-dui-yi-duan-youtube-ying-pian-jin-hang-bian-shi-ba.md)
   * [【語音辨識 - Whisper】OpenAI Whisper: 語音辨識產生字幕檔](asr-yu-yin-bian-shi-pian-openai-whisper/yu-yin-bian-shi-whisperopenai-whisper-yu-yin-bian-shi-chan-sheng-zi-mu-dang.md)
   * [【語音辨識 - Whisper】 雙聲道音訊處理與辨識](asr-yu-yin-bian-shi-pian-openai-whisper/yu-yin-bian-shi-whisper-shuang-sheng-dao-yin-xun-chu-li-yu-bian-shi.md)
+  * [【語音辨識 - Whisper】 究竟如何衡量辨識率的高低呢？](asr-yu-yin-bian-shi-pian-openai-whisper/yu-yin-bian-shi-whisper-jiu-jing-ru-he-heng-liang-bian-shi-shuai-de-gao-di-ni.md)
 * [自然語言處理 - NLP(Natural Language Processing)](zi-ran-yu-yan-chu-li-nlpnatural-language-processing/README.md)
   * [【自然語言處理 - 概念篇】最基礎的Bag-of-Words模型是什麼呢？](zi-ran-yu-yan-chu-li-nlpnatural-language-processing/zi-ran-yu-yan-chu-li-gai-nian-pian-zui-ji-chu-de-bagofwords-mo-xing-shi-shi-mo-ni.md)
   * [【自然語言處理 - 概念篇】 來認識一下詞向量(Word Embedding or Word Vector)吧](zi-ran-yu-yan-chu-li-nlpnatural-language-processing/zi-ran-yu-yan-chu-li-gai-nian-pian-lai-ren-shi-yi-xia-ci-xiang-liang-word-embedding-or-word-vector-b.md)

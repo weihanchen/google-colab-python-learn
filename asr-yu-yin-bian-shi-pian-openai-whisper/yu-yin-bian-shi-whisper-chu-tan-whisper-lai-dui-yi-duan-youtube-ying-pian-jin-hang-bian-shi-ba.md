@@ -2,7 +2,7 @@
 description: 初探Whisper
 ---
 
-# 【Google Colab Python系列】 初探Whisper: 來對一段Youtube影片進行辨識吧！
+# 【語音辨識 - Whisper】 初探Whisper: 來對一段Youtube影片進行辨識吧！
 
 這個篇章主要是讓我們能夠熟悉Whisper的安裝與使用方式，並簡單的對Youtube影片進行線上翻譯的工作，主軸在於了解一下整個Whisper使用方式到底是簡單還是複雜，就讓我們一起來玩玩看吧！ 在這之前我們還是說一下Whisper它是什麼樣的一個工具，能夠做什麼？
 
@@ -134,3 +134,16 @@ result
 [Web3.0時代下為創作者、閱讀者打造的專屬共贏平台 - 為什麼要加入？](https://www.potatomedia.co/s/2PmFxsq)
 
 歡迎加入一起練習寫作，賺取知識，累積財富！
+
+
+
+#### 更多關於【語音辨識 - Whisper 系列】…
+
+* [【Hugging Face】Ep.1 平凡人也能玩的起的AI平台](https://vocus.cc/article/649d7961fd89780001b63b0a)
+* [【Hugging Face】Ep.2 初探新手村, 打造專屬的翻譯官](https://vocus.cc/article/64a013ecfd89780001601391)
+* [【Hugging Face】Ep.3 前往Datasets掏金趣](https://vocus.cc/article/64a2c62afd897800018a8185)
+* [【Hugging Face】Ep.4 文字與模型的轉換器Tokenizer](https://vocus.cc/article/64a34d8dfd8978000190e556)
+* [【Hugging Face】Ep.5 文字世界中的超能力語言英雄(Named Entity Recognition)](https://vocus.cc/article/64a42269fd89780001589eca)
+* [【Hugging Face】Ep.6 解決問題的專業級破關知識家(Question Answering)](https://vocus.cc/article/64ad426cfd89780001f0f010)
+* [【Hugging Face】Ep.7 以文生圖的魔幻製圖師(Text To Image)](https://vocus.cc/article/64aea57ffd89780001075213)
+* [【Hugging Face】Ep.8 專業的標準化推理家(Inference API)](https://vocus.cc/article/64affcd6fd89780001437d39)
