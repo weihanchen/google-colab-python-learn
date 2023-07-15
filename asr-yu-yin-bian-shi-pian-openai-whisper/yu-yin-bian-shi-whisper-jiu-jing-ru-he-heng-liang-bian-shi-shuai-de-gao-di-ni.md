@@ -48,7 +48,11 @@ description: 語音辨識的領域中究竟如何去評估正確率呢？
 
 #### Word Error Rate(WER)
 
-WER是以詞為單位進行計算
+WER是以「詞」為單位進行計算，底下的例子以詞為單位會發現有1個insertion與兩個substitution，因此總共4個詞錯了3個等於3/4 = 75%。
+
+
+
+<figure><img src="../.gitbook/assets/wer.drawio.png" alt=""><figcaption></figcaption></figure>
 
 
 
