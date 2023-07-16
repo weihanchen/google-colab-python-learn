@@ -179,7 +179,7 @@ _reference = ref_data['sentence']
 
 reference = ' '.join(jieba.cut(_reference, cut_all=False, HMM=True))
 
-reference # 並 做出 行動
+reference
 ```
 
 #### 接著來進行語音辨識
