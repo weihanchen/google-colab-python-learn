@@ -139,11 +139,10 @@ result
 
 #### 更多關於【語音辨識 - Whisper 系列】…
 
-* [【Hugging Face】Ep.1 平凡人也能玩的起的AI平台](https://vocus.cc/article/649d7961fd89780001b63b0a)
-* [【Hugging Face】Ep.2 初探新手村, 打造專屬的翻譯官](https://vocus.cc/article/64a013ecfd89780001601391)
-* [【Hugging Face】Ep.3 前往Datasets掏金趣](https://vocus.cc/article/64a2c62afd897800018a8185)
-* [【Hugging Face】Ep.4 文字與模型的轉換器Tokenizer](https://vocus.cc/article/64a34d8dfd8978000190e556)
-* [【Hugging Face】Ep.5 文字世界中的超能力語言英雄(Named Entity Recognition)](https://vocus.cc/article/64a42269fd89780001589eca)
-* [【Hugging Face】Ep.6 解決問題的專業級破關知識家(Question Answering)](https://vocus.cc/article/64ad426cfd89780001f0f010)
-* [【Hugging Face】Ep.7 以文生圖的魔幻製圖師(Text To Image)](https://vocus.cc/article/64aea57ffd89780001075213)
-* [【Hugging Face】Ep.8 專業的標準化推理家(Inference API)](https://vocus.cc/article/64affcd6fd89780001437d39)
+* 【語音辨識 - Whisper】 初探Whisper: 來對一段Youtube影片進行辨識吧！
+* 【語音辨識 - Whisper】OpenAI Whisper: 語音辨識產生字幕檔
+* 【語音辨識 - Whisper】 雙聲道音訊處理與辨識
+* 【語音辨識 - Whisper】 準確與否需要有一把 📏尺來衡量
+
+
+
