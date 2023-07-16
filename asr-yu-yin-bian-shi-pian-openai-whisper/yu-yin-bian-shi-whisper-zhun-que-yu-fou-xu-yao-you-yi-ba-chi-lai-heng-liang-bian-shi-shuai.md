@@ -2,7 +2,7 @@
 description: 語音辨識的領域中究竟如何去評估正確率呢？
 ---
 
-# 【語音辨識 - Whisper】 準確與否需要有一把 📏尺來衡量
+# 【語音辨識 - Whisper】 準確與否需要有一把 📏尺來衡量辨識率
 
 前面我們介紹了幾個關於Whisper的基本概念，這裡附上 [🚀傳送門](https://vocus.cc/article/644526c8fd89780001ffdd9f) ，歡迎好好閱讀一番，但我們除了學會如何用語音辨識的工具之外，「準確率」對我們來說也是一個非常重要的一環，但我們究竟應該要如何評估所謂的準確率呢？ 不知道沒關係，當您看完這個篇章就能夠學會如何計算文字的「字元錯誤率」、「字詞錯誤率」...，非常值得您細細品嘗與學習，就讓我們往下一步步的完成評估準確率的程序吧！
 
@@ -234,4 +234,13 @@ print(jiwer.visualize_alignment(out))
 [Web3.0時代下為創作者、閱讀者打造的專屬共贏平台 - 為什麼要加入？](https://www.potatomedia.co/s/2PmFxsq)
 
 歡迎加入一起練習寫作，賺取知識，累積財富！
+
+
+
+#### 更多關於【語音辨識 - Whisper 系列】…
+
+* [【語音辨識 - Whisper】 初探Whisper: 來對一段Youtube影片進行辨識吧！](https://vocus.cc/article/644526c8fd89780001ffdd9f)
+* [【語音辨識 - Whisper】OpenAI Whisper: 語音辨識產生字幕檔](https://vocus.cc/article/64468d92fd8978000115c6e1)
+* [【語音辨識 - Whisper】 雙聲道音訊處理與辨識](https://vocus.cc/article/64733d7efd89780001781326)
+* [【語音辨識 - Whisper】 準確與否需要有一把 📏尺來衡量](https://vocus.cc/article/64b3a209fd89780001481152)
 

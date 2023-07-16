@@ -2,7 +2,7 @@
 description: 還在煩惱字幕問題嗎？ 無字幕的影片有救了!
 ---
 
-# 【Google Colab Python系列】OpenAI Whisper: 語音辨識產生字幕檔
+# 【語音辨識 - Whisper】OpenAI Whisper: 語音辨識產生字幕檔
 
 上一篇「[【Google Colab Python系列】 初探Whisper: 來對一段Youtube影片進行辨識吧！](https://vocus.cc/article/644526c8fd89780001ffdd9f)」我們介紹了Whisper的基本用法及功能，這次我們除了語音辨識之外，還要下載辨識後的字幕檔，我想這對於我們常常看到沒有字幕的影片，若想要進行辨識與翻譯時非常有幫助。
 
@@ -104,3 +104,12 @@ for f in todo:
 [Web3.0時代下為創作者、閱讀者打造的專屬共贏平台 - 為什麼要加入？](https://www.potatomedia.co/s/2PmFxsq)
 
 歡迎加入一起練習寫作，賺取知識，累積財富！
+
+
+
+#### 更多關於【語音辨識 - Whisper 系列】…
+
+* [【語音辨識 - Whisper】 初探Whisper: 來對一段Youtube影片進行辨識吧！](https://vocus.cc/article/644526c8fd89780001ffdd9f)
+* [【語音辨識 - Whisper】OpenAI Whisper: 語音辨識產生字幕檔](https://vocus.cc/article/64468d92fd8978000115c6e1)
+* [【語音辨識 - Whisper】 雙聲道音訊處理與辨識](https://vocus.cc/article/64733d7efd89780001781326)
+* [【語音辨識 - Whisper】 準確與否需要有一把 📏尺來衡量](https://vocus.cc/article/64b3a209fd89780001481152)
