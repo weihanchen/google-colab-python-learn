@@ -6,7 +6,7 @@ description: 還在煩惱字幕問題嗎？ 無字幕的影片有救了!
 
 上一篇「[【Google Colab Python系列】 初探Whisper: 來對一段Youtube影片進行辨識吧！](https://vocus.cc/article/644526c8fd89780001ffdd9f)」我們介紹了Whisper的基本用法及功能，這次我們除了語音辨識之外，還要下載辨識後的字幕檔，我想這對於我們常常看到沒有字幕的影片，若想要進行辨識與翻譯時非常有幫助。
 
-<figure><img src="../.gitbook/assets/whisper_srt.drawio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/whisper_srt.drawio.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/bpfq9pXC">圖片來源</a></p></figcaption></figure>
 
 ### 這次的篇章主要做些什麼？
 

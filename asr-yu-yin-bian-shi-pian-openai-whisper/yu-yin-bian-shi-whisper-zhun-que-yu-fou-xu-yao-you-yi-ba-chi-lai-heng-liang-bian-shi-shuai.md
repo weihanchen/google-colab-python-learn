@@ -22,7 +22,7 @@ description: 語音辨識的領域中究竟如何去評估正確率呢？
 
 
 
-<figure><img src="../.gitbook/assets/substitutions.drawio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/substitutions.drawio.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/q2qnKxz">圖片來源</a></p></figcaption></figure>
 
 
 
@@ -32,7 +32,7 @@ description: 語音辨識的領域中究竟如何去評估正確率呢？
 
 
 
-<figure><img src="../.gitbook/assets/deletions.drawio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/deletions.drawio.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/q2qnKxz">圖片來源</a></p></figcaption></figure>
 
 #### 什麼是insertions呢？
 
@@ -40,7 +40,7 @@ description: 語音辨識的領域中究竟如何去評估正確率呢？
 
 
 
-<figure><img src="../.gitbook/assets/insertions.drawio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/insertions.drawio.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/q2qnKxz">圖片來源</a></p></figcaption></figure>
 
 
 
@@ -62,7 +62,7 @@ WER是以「詞」為單位進行計算，它用來衡量句子中有多少詞�
 
 
 
-<figure><img src="../.gitbook/assets/wer.drawio (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/wer.drawio (1).png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/q2qnKxz">圖片來源</a></p></figcaption></figure>
 
 **平均錯誤率 Mean Error Rate(MER)**
 
@@ -77,7 +77,7 @@ WER是以「詞」為單位進行計算，它用來衡量句子中有多少詞�
 
 
 
-<figure><img src="../.gitbook/assets/mer.drawio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/mer.drawio.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/q2qnKxz">圖片來源</a></p></figcaption></figure>
 
 **詞保留率 Word Information Preservation(WIP)**
 
@@ -93,7 +93,7 @@ num_hp_words = 辨識結果字詞數 = 5
 
 
 
-<figure><img src="../.gitbook/assets/wip.drawio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/wip.drawio.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/q2qnKxz">圖片來源</a></p></figcaption></figure>
 
 #### 詞漏失率 Word Information Lost(WIL)
 
@@ -116,7 +116,7 @@ CER是以「字元」為單位進行計算，底下的例子以「字元」為�
 
 ###
 
-<figure><img src="../.gitbook/assets/cer.drawio (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/cer.drawio (1).png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/q2qnKxz">圖片來源</a></p></figcaption></figure>
 
 ### 動動手使用Whisper語音辨識來計算一下正確率吧
 
@@ -144,7 +144,7 @@ CER是以「字元」為單位進行計算，底下的例子以「字元」為�
 
 
 
-<figure><img src="../.gitbook/assets/找音檔.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/找音檔.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/q2qnKxz">圖片來源</a></p></figcaption></figure>
 
 #### 接著我們使用Hugging Face的Datasets函式庫來進行操作
 

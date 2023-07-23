@@ -12,7 +12,7 @@ description: 讓我們更深入了解語音辨識技術吧！ 音訊處理的基
 
 
 
-<figure><img src="../.gitbook/assets/stereo_mono.drawio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/stereo_mono.drawio.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/auHHuuLd">圖片來源</a></p></figcaption></figure>
 
 ### 工具安裝
 
