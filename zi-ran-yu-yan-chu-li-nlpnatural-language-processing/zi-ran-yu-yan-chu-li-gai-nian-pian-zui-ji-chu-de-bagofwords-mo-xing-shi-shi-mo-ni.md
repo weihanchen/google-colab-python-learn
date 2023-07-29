@@ -121,7 +121,7 @@ df = pd.DataFrame(features.toarray(), columns=feature_names)
 df
 ```
 
-<figure><img src="../.gitbook/assets/表格.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/表格 (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 繪製詞頻圖
 

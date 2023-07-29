@@ -42,6 +42,10 @@ description: 📚 Learn Google Colab、Python、ML、NLP、ASR
 * [【Google Colab Python系列】以Goodinfo!為例，統計區間內的數值](goodinfo-pa-chong-shi-zhan-pian/google-colab-xi-lie-yi-goodinfo-wei-li-tong-ji-yi-duan-shi-jian-nei-de-zui-gao-zui-di-zhi-li-shuai.md)
 * [📈【Google Colab Python系列】以Goodinfo為例，將資料視覺化吧！](goodinfo-pa-chong-shi-zhan-pian/google-colab-python-xi-lie-yi-goodinfo-wei-li-jiang-zi-liao-shi-jue-hua-ba.md)
 
+### 資料處理神器區
+
+* [【Google Colab Python系列】 資料處理神器 Pandas 起手式](zi-liao-chu-li-shen-qi-qu/google-colab-python-xi-lie-zi-liao-chu-li-shen-qi-pandas-qi-shou-shi.md)
+
 ### 報表視覺化工具集
 
 * [【Google Colab Python系列】 視覺化資料Matplotlib 新手村](bao-biao-shi-jue-hua-gong-ju-ji/google-colab-python-xi-lie-shi-jue-hua-zi-liao-matplotlib-xin-shou-cun.md)
