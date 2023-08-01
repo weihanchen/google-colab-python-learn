@@ -44,7 +44,7 @@ df
 
 
 
-<figure><img src="../.gitbook/assets/表格.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/表格.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/pYiFElO">圖片來源</a></p></figcaption></figure>
 
 
 
@@ -95,7 +95,7 @@ df.describe()
 
 
 
-<figure><img src="../.gitbook/assets/更多的統計方法.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/更多的統計方法.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/pYiFElO">圖片來源</a></p></figcaption></figure>
 
 除了平均、最大最小以外更有中位數…等， 就根據需求取用囉！
 

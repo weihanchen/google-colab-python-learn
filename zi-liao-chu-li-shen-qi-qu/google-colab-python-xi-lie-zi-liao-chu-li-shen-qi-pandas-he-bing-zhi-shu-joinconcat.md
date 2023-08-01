@@ -4,6 +4,10 @@ description: 開始AI之前的基礎工就是資料處理了，而資料處理�
 
 # 【Google Colab Python系列】 資料處理神器 Pandas 合併之術(join、concat)
 
+
+
+<figure><img src="../.gitbook/assets/merge.jpg" alt=""><figcaption></figcaption></figure>
+
 上一篇我們有介紹了「[【Google Colab Python系列】 資料處理神器 Pandas 起手式](https://www.potatomedia.co/s/pYiFElO)」， 相信對於pandas的基本操作具有一定的基礎知識了， 主要著重在基本的操作， 讓我們快速篩選與分析資料， 但真實的世界是有可能具有很多類型的資料集分別儲存， 而不同的資料集又具有一些相似度， 需要進行共同的群組分類與合併， 這一篇主要就著重在如何處理不同類型的資料集合併。
 
 ### 首先是串接
