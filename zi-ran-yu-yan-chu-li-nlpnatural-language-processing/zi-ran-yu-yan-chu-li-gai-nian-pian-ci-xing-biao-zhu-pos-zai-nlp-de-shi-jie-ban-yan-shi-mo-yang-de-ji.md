@@ -91,15 +91,15 @@ display(HTML(html))
 
 ```
 
-<figure><img src="../.gitbook/assets/pos.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/pos.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/xsujA4r">圖片來源</a></p></figcaption></figure>
 
 今天的範例都在這裡「[📦 ](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/spacy\_0.ipynb)[spacy\_pos.ipynb](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/nlp/spacy\_pos.ipynb)」歡迎自行取用。
 
-如何使用請參閱「[【Google Colab系列】台股分析預備式： Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S)」。
+如何使用請參閱「[【Google Colab Python系列】Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S)」。
 
 ### 結語
 
-透過上述的基礎處理, 我們可以知道一段話由哪些詞所組成, 這些詞的詞性又是被標注上哪些呢? 有了這些資訊我們就可以進行下一章的「【自然語言處理 - spaCy】 拆解語句組成的規則, 何謂依存句法分析(Dependency Parsing)?」。
+透過上述的基礎處理, 我們可以知道一段話由哪些詞所組成, 這些詞的詞性又是被標注上哪些呢? 有了這些資訊我們就可以進行下一章的「[【自然語言處理 - spaCy】 拆解語句組成的規則, 何謂依存句法分析(Dependency Parsing)?](https://www.potatomedia.co/s/xsujA4r)」。
 
 我們在後續的章節也會針對如何訓練出POS的模型進行解說, 就讓我們一步步地把玩NLP吧。
 

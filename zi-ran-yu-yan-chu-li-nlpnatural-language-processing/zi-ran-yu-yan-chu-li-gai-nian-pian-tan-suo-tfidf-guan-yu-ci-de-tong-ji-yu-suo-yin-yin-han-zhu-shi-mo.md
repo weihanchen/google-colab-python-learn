@@ -113,7 +113,7 @@ tf = pd.DataFrame(tf_matrix, columns=feature_names)
 tf
 ```
 
-<figure><img src="../.gitbook/assets/tf.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/tf.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/bVIUUxZD">圖片來源</a></p></figcaption></figure>
 
 #### IDF矩陣
 
@@ -137,7 +137,7 @@ idf = pd.DataFrame(idf_vector, index=feature_names, columns=["IDF"])
 idf
 ```
 
-<figure><img src="../.gitbook/assets/idf.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/idf.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/bVIUUxZD">圖片來源</a></p></figcaption></figure>
 
 #### TF-IDF
 
@@ -161,7 +161,7 @@ tfidf = pd.DataFrame(tfidf_matrix, columns=feature_names)
 tfidf
 ```
 
-<figure><img src="../.gitbook/assets/tf_idf.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/tf_idf.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/bVIUUxZD">圖片來源</a></p></figcaption></figure>
 
 #### 以上自己用土炮的方式相乘, 接下來我們可以看看sklearn計算出來的結果。
 
@@ -202,7 +202,7 @@ plt.title('TF-IDF Scores for Words')
 plt.show()
 ```
 
-<figure><img src="../.gitbook/assets/下載.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/下載.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/bVIUUxZD">圖片來源</a></p></figcaption></figure>
 
 ### 結語
 
@@ -212,7 +212,7 @@ plt.show()
 
 今天的範例都在這裡「[📦 ](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/nlp/bow.ipynb)[tf\_idf.ipynb](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/nlp/tf\_idf.ipynb)」歡迎自行取用。
 
-如何使用請參閱「[【Google Colab系列】台股分析預備式： Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S)」。
+如何使用請參閱「[【Google Colab Python系列】Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S)」。
 
 
 

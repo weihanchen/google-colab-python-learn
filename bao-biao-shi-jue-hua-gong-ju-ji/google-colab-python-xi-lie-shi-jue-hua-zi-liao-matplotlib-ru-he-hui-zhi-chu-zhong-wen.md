@@ -89,7 +89,7 @@ plt.show()
 
 今天的範例都在這裡「[📦 ](../jupyter-examples/goodinfo\_yield.ipynb)[**matplotlib\_chinese\_font.ipynb**](../jupyter-examples/matplotlib\_chinese\_font.ipynb)」歡迎自行取用。
 
-如何使用請參閱「[【Google Colab系列】台股分析預備式： Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S')」。
+如何使用請參閱「[【Google Colab Python系列】Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S)」。
 
 ### 資源參考
 

@@ -108,7 +108,7 @@ Python不愧是進行資料分析的最佳利器，簡單的透過幾個套件�
 
 今天的範例都在這裡「[📦 goodinfo\_example.ipynb](../jupyter-examples/goodinfo\_example.ipynb)」歡迎自行取用。
 
-如何使用請參閱「[【Google Colab系列】台股分析預備式： Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S')」。
+如何使用請參閱「[【Google Colab Python系列】Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S)」。
 
 \------------------------------------------------------------------------------------------------
 

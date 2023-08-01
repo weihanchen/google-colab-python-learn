@@ -4,7 +4,7 @@ description: 當ChatGPT的出現，讓我們更需要理解AI/NLP的技術...
 
 # 【自然語言處理 - 概念篇】 拆解語句組成的規則, 何謂依存句法分析(Dependency Parsing)?
 
-<figure><img src="../.gitbook/assets/dep (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/dep (1).png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/6FPFBdm">圖片來源</a></p></figcaption></figure>
 
 我們有想過嗎？ 一句簡單的話語, 竟然隱含著豐富的句法結構與規則, 而句法就是依著這樣的規則組合而成, 形成一個完整的句子, 隨著資料量越大, 透過規則與關聯性, 機器就能夠根據我們的話語進行拆解, 並試圖理解我們的意圖進行更貼心的服務, 隨著Chatgpt的興起, 我們也見證到AI的新里程碑, 資訊領域的我們也不得不跟上潮流學習這些AI相關的技術才不至於成為被取代的對象。
 
@@ -70,7 +70,7 @@ options = {
 displacy.render(doc, style="dep", jupyter=True, options=options)
 ```
 
-<figure><img src="../.gitbook/assets/svgviewer-png-output.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/svgviewer-png-output.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/6FPFBdm">圖片來源</a></p></figcaption></figure>
 
 「看」是整個句子的根節點, 「我」 是它的主語，「書」 是它的賓語，「昨天」 是它的修飾詞，「有趣」 是 「書」 的修飾詞，觀察句法樹讓我們可以理解詞彙之間的關係, 。
 

@@ -149,7 +149,7 @@ for i, word in enumerate(vocab):
 plt.show()
 ```
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/bsKx5GfV">圖片來源</a></p></figcaption></figure>
 
 ### 下載預訓練模型
 
@@ -253,11 +253,11 @@ plt.tight_layout()
 plt.show()
 ```
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/bsKx5GfV">圖片來源</a></p></figcaption></figure>
 
 今天的範例都在這裡「[📦 ](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/nlp/bow.ipynb)[wordvector.ipynb](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/nlp/wordvector.ipynb)」歡迎自行取用。
 
-如何使用請參閱「[【Google Colab系列】台股分析預備式： Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S)」。
+如何使用請參閱「[【Google Colab Python系列】Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S)」。
 
 ### 結語
 

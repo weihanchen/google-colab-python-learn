@@ -10,7 +10,7 @@ description: 當ChatGPT的出現，讓我們更需要理解AI的技術...
 
 既然是進入NLP世界的基礎，那我們就不得不來仔細了解一番，為什麼會有此命名呢？ 轉譯成中文又可以稱為「詞袋」，就想像成專門裝各類糖果的袋子，每一種糖果可能會重複出現幾次，那麼在袋中的糖果，將各種不同種類統計之後，就能夠得出哪些糖果甚至進一步分這些糖果的種類(軟、硬糖...)，而詞也是同樣的道理，統計出詞頻、詞的特徵，進一步分析出這段語句中可能帶有哪些情緒(正向、負向...)，基本上就是透過一套演算法或資料結構幫我們進行前處理，以利後續的NLP任務進行。
 
-<figure><img src="../.gitbook/assets/BOW.drawio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/BOW.drawio.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/bxreoUsi">圖片來源</a></p></figcaption></figure>
 
 ### BOW的處理過程
 
@@ -121,7 +121,7 @@ df = pd.DataFrame(features.toarray(), columns=feature_names)
 df
 ```
 
-<figure><img src="../.gitbook/assets/表格 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/表格 (1).png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/bxreoUsi">圖片來源</a></p></figcaption></figure>
 
 ### 繪製詞頻圖
 
@@ -142,11 +142,11 @@ plt.title('詞彙頻率圖')
 plt.show()
 ```
 
-<figure><img src="../.gitbook/assets/詞彙頻率表.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/詞彙頻率表.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/bxreoUsi">圖片來源</a></p></figcaption></figure>
 
 今天的範例都在這裡「[📦 bow.ipynb](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/nlp/bow.ipynb)」歡迎自行取用。
 
-如何使用請參閱「[【Google Colab系列】台股分析預備式： Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S)」。
+如何使用請參閱「[【Google Colab Python系列】Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S)」。
 
 ### 結語
 
