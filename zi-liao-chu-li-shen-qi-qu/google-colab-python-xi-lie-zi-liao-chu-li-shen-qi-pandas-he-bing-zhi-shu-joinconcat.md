@@ -97,3 +97,11 @@ joined_data
 [Web3.0時代下為創作者、閱讀者打造的專屬共贏平台 — 為什麼要加入？](https://www.potatomedia.co/s/2PmFxsq)
 
 歡迎加入一起練習寫作，賺取知識
+
+
+
+### 更多關於資料處理神器 Pandas 系列文章…
+
+* [【Google Colab Python系列】 資料處理神器 Pandas 起手式](https://www.potatomedia.co/s/pYiFElO)
+* [【Google Colab Python系列】 資料處理神器 Pandas 合併之術(join、concat)](https://github.com/weihanchen/google-colab-python-learn/blob/main/zi-liao-chu-li-shen-qi-qu/google-colab-python-xi-lie-zi-liao-chu-li-shen-qi-pandas-he-bing-zhi-shu-joinconcat.md)
+* 【Google Colab Python系列】 資料處理神器 Pandas 分割與重組之術(Grouping/Reshaping)

@@ -32,6 +32,7 @@
 * [資料處理神器區](zi-liao-chu-li-shen-qi-qu/README.md)
   * [【Google Colab Python系列】 資料處理神器 Pandas 起手式](zi-liao-chu-li-shen-qi-qu/google-colab-python-xi-lie-zi-liao-chu-li-shen-qi-pandas-qi-shou-shi.md)
   * [【Google Colab Python系列】 資料處理神器 Pandas 合併之術(join、concat)](zi-liao-chu-li-shen-qi-qu/google-colab-python-xi-lie-zi-liao-chu-li-shen-qi-pandas-he-bing-zhi-shu-joinconcat.md)
+  * [【Google Colab Python系列】 資料處理神器 Pandas 分組與重朔之術(Grouping/Reshaping)](zi-liao-chu-li-shen-qi-qu/google-colab-python-xi-lie-zi-liao-chu-li-shen-qi-pandas-fen-zu-yu-zhong-shuo-zhi-shu-groupingreshap.md)
 * [報表視覺化工具集](bao-biao-shi-jue-hua-gong-ju-ji/README.md)
   * [【Google Colab Python系列】 視覺化資料Matplotlib 新手村](bao-biao-shi-jue-hua-gong-ju-ji/google-colab-python-xi-lie-shi-jue-hua-zi-liao-matplotlib-xin-shou-cun.md)
   * [🖋 【Google Colab Python系列】 視覺化資料Matplotlib 如何繪製出中文？](bao-biao-shi-jue-hua-gong-ju-ji/google-colab-python-xi-lie-shi-jue-hua-zi-liao-matplotlib-ru-he-hui-zhi-chu-zhong-wen.md)
