@@ -14,7 +14,7 @@ description: 開始AI之前的基礎工就是資料處理了，而資料處理�
 
 
 
-<figure><img src="../.gitbook/assets/grouping.drawio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/grouping.drawio.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/aJA1iURN">圖片來源</a></p></figcaption></figure>
 
 ```python
 import pandas as pd
@@ -32,7 +32,7 @@ print(df)
 
 
 
-<figure><img src="../.gitbook/assets/銷售原始數據.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/銷售原始數據.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/aJA1iURN">圖片來源</a></p></figcaption></figure>
 
 那麼有了這個銷售數據後，身為老闆的我們總會希望統計一下哪位員工的銷售金額比較多，績效比較好，做為評估的依據， 此時我們可以這麼做， 以「姓名」當作群組的分類標的，進而針對銷售金額進行加總， 就可以得出這批資料中，哪位員工銷售的最多...
 
@@ -44,7 +44,7 @@ print(total)
 
 
 
-<figure><img src="../.gitbook/assets/分組統計銷售金額.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/分組統計銷售金額.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/aJA1iURN">圖片來源</a></p></figcaption></figure>
 
 當然我們群組分類的欄位也可以不只一個， 假設我們要統計每個人每天的銷售額多少時就可以這麼做...
 
@@ -55,7 +55,7 @@ print(total)
 
 
 
-<figure><img src="../.gitbook/assets/多欄位分組.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/多欄位分組.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/aJA1iURN">圖片來源</a></p></figcaption></figure>
 
 
 
@@ -84,7 +84,7 @@ print(df)
 
 
 
-<figure><img src="../.gitbook/assets/重朔樣本.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/重朔樣本.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/aJA1iURN">圖片來源</a></p></figcaption></figure>
 
 #### 以pivot來實現
 
@@ -100,7 +100,7 @@ print(reshaped_df)
 
 
 
-<figure><img src="../.gitbook/assets/pivot實現.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/pivot實現.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/aJA1iURN">圖片來源</a></p></figcaption></figure>
 
 
 
@@ -110,7 +110,7 @@ print(reshaped_df)
 
 
 
-<figure><img src="../.gitbook/assets/reshaping_stack.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/reshaping_stack.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/aJA1iURN">圖片來源</a></p></figcaption></figure>
 
 ```python
 stacked_df = reshaped_df.stack()
@@ -119,7 +119,7 @@ print(stacked_df)
 
 
 
-<figure><img src="../.gitbook/assets/堆疊.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/堆疊.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/aJA1iURN">圖片來源</a></p></figcaption></figure>
 
 #### 當然也可以unstack
 
@@ -130,7 +130,7 @@ print(unstacked_df)
 
 
 
-<figure><img src="../.gitbook/assets/未堆疊.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/未堆疊.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/aJA1iURN">圖片來源</a></p></figcaption></figure>
 
 今天的範例都在這裡「[📦 pandas/pandas\_merge.ipynb](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/pandas/pandas\_group\_reshape.ipynb)」歡迎自行取用。
 
@@ -150,6 +150,6 @@ print(unstacked_df)
 
 ### 更多關於資料處理神器 Pandas 系列文章…
 
-* [【Google Colab Python系列】 資料處理神器 Pandas 起手式](https://www.potatomedia.co/s/pYiFElO)
-* [【Google Colab Python系列】 資料處理神器 Pandas 合併之術(join、concat)](https://github.com/weihanchen/google-colab-python-learn/blob/main/zi-liao-chu-li-shen-qi-qu/google-colab-python-xi-lie-zi-liao-chu-li-shen-qi-pandas-he-bing-zhi-shu-joinconcat.md)
-* 【Google Colab Python系列】 資料處理神器 Pandas 分割與重組之術(Grouping/Reshaping)
+* [【Google Colab Python系列】 資料處理神器 Pandas 起手式](https://vocus.cc/article/64c90f67fd8978000138d9bc)
+* [【Google Colab Python系列】 資料處理神器 Pandas 合併之術(join、concat)](https://vocus.cc/article/64ca3fb9fd897800018b230c)
+* [【Google Colab Python系列】 資料處理神器 Pandas 分割與重組之術(Grouping/Reshaping)](https://vocus.cc/article/64ca6232fd897800018e734a)

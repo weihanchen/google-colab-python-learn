@@ -1,5 +1,5 @@
 ---
-description: 📚 Learn Google Colab、Python、ML、NLP、ASR
+description: 📚 Learn Google Colab、Python、ML、NLP、ASR、NumPy、Pandas
 ---
 
 # 📌 基本介紹
@@ -36,7 +36,7 @@ description: 📚 Learn Google Colab、Python、ML、NLP、ASR
 * [【自然語言處理 - spaCy】初探強大的工具庫spaCy， 讓機器讀懂我們的語言](zi-ran-yu-yan-chu-li-nlpnatural-language-processing/zi-ran-yu-yan-chu-li-spacy-chu-tan-qiang-da-de-gong-ju-ku-spacy-rang-ji-qi-du-dong-wo-men-de-yu-yan.md)
 * [【自然語言處理 - spaCy】善用ChatGPT幫我們訓練出自訂的Name Entity Recognition實體](zi-ran-yu-yan-chu-li-nlpnatural-language-processing/zi-ran-yu-yan-chu-li-spacy-shan-yong-chatgpt-bang-wo-men-xun-lian-chu-zi-ding-de-name-entity-recogni.md)
 
-### Goodinfo! 爬蟲實戰篇
+### 爬蟲實戰篇
 
 * [【Google Colab Python系列】該如何設計自己的爬蟲來抓取Html資料？](goodinfo-pa-chong-shi-zhan-pian/google-colab-xi-lie-gai-ru-he-she-ji-zi-ji-de-pa-chong-lai-zhua-qu-html-zi-liao.md)
 * [【Google Colab Python系列】以Goodinfo!為例，統計區間內的數值](goodinfo-pa-chong-shi-zhan-pian/google-colab-xi-lie-yi-goodinfo-wei-li-tong-ji-yi-duan-shi-jian-nei-de-zui-gao-zui-di-zhi-li-shuai.md)
@@ -47,8 +47,6 @@ description: 📚 Learn Google Colab、Python、ML、NLP、ASR
 * [【Google Colab Python系列】 資料處理神器 Pandas 起手式](zi-liao-chu-li-shen-qi-qu/google-colab-python-xi-lie-zi-liao-chu-li-shen-qi-pandas-qi-shou-shi.md)
 * [【Google Colab Python系列】 資料處理神器 Pandas 合併之術(join、concat)](zi-liao-chu-li-shen-qi-qu/google-colab-python-xi-lie-zi-liao-chu-li-shen-qi-pandas-he-bing-zhi-shu-joinconcat.md)
 * [【Google Colab Python系列】 資料處理神器 Pandas 分組與重朔之術(Grouping/Reshaping)](zi-liao-chu-li-shen-qi-qu/google-colab-python-xi-lie-zi-liao-chu-li-shen-qi-pandas-fen-zu-yu-zhong-shuo-zhi-shu-groupingreshap.md)
-
-
 
 ### 報表視覺化工具集
 

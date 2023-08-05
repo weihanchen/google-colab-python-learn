@@ -6,7 +6,7 @@ description: 開始AI之前的基礎工就是資料處理了，而資料處理�
 
 
 
-<figure><img src="../.gitbook/assets/merge.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/merge.jpg" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/Pw3lyvW">圖片來源</a></p></figcaption></figure>
 
 上一篇我們有介紹了「[【Google Colab Python系列】 資料處理神器 Pandas 起手式](https://www.potatomedia.co/s/pYiFElO)」， 相信對於pandas的基本操作具有一定的基礎知識了， 主要著重在基本的操作， 讓我們快速篩選與分析資料， 但真實的世界是有可能具有很多類型的資料集分別儲存， 而不同的資料集又具有一些相似度， 需要進行共同的群組分類與合併， 這一篇主要就著重在如何處理不同類型的資料集合併。
 
@@ -37,7 +37,7 @@ combined_shopping_list = pd.concat([wet_market, hardware_store], ignore_index=Tr
 print(combined_shopping_list)
 ```
 
-<figure><img src="../.gitbook/assets/串接.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/串接.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/Pw3lyvW">圖片來源</a></p></figcaption></figure>
 
 ### 再來是合併(Join)
 
@@ -57,7 +57,7 @@ user_data
 
 
 
-<figure><img src="../.gitbook/assets/客戶的地址.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/客戶的地址.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/Pw3lyvW">圖片來源</a></p></figcaption></figure>
 
 ```python
 # 客戶訂單
@@ -69,7 +69,7 @@ order_data = pd.DataFrame({
 order_data
 ```
 
-<figure><img src="../.gitbook/assets/客戶的訂單.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/客戶的訂單.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/Pw3lyvW">圖片來源</a></p></figcaption></figure>
 
 ```python
 # 使用 pandas 的 join 合併之術來合併兩張表
@@ -80,7 +80,7 @@ joined_data
 
 
 
-<figure><img src="../.gitbook/assets/合併.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/合併.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/Pw3lyvW">圖片來源</a></p></figcaption></figure>
 
 有沒有發現，其實這很像SQL裡面的join概念，將兩張表整併再一起，更容易進行統計與分析。
 
@@ -102,6 +102,6 @@ joined_data
 
 ### 更多關於資料處理神器 Pandas 系列文章…
 
-* [【Google Colab Python系列】 資料處理神器 Pandas 起手式](https://www.potatomedia.co/s/pYiFElO)
-* [【Google Colab Python系列】 資料處理神器 Pandas 合併之術(join、concat)](https://github.com/weihanchen/google-colab-python-learn/blob/main/zi-liao-chu-li-shen-qi-qu/google-colab-python-xi-lie-zi-liao-chu-li-shen-qi-pandas-he-bing-zhi-shu-joinconcat.md)
-* 【Google Colab Python系列】 資料處理神器 Pandas 分割與重組之術(Grouping/Reshaping)
+* [【Google Colab Python系列】 資料處理神器 Pandas 起手式](https://vocus.cc/article/64c90f67fd8978000138d9bc)
+* [【Google Colab Python系列】 資料處理神器 Pandas 合併之術(join、concat)](https://vocus.cc/article/64ca3fb9fd897800018b230c)
+* [【Google Colab Python系列】 資料處理神器 Pandas 分割與重組之術(Grouping/Reshaping)](https://vocus.cc/article/64ca6232fd897800018e734a)

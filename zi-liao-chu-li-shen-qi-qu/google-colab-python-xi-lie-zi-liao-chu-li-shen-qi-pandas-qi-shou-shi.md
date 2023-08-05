@@ -117,6 +117,6 @@ df.describe()
 
 ### 更多關於資料處理神器 Pandas 系列文章…
 
-* [【Google Colab Python系列】 資料處理神器 Pandas 起手式](https://www.potatomedia.co/s/pYiFElO)
-* [【Google Colab Python系列】 資料處理神器 Pandas 合併之術(join、concat)](https://github.com/weihanchen/google-colab-python-learn/blob/main/zi-liao-chu-li-shen-qi-qu/google-colab-python-xi-lie-zi-liao-chu-li-shen-qi-pandas-he-bing-zhi-shu-joinconcat.md)
-* 【Google Colab Python系列】 資料處理神器 Pandas 分割與重組之術(Grouping/Reshaping)
+* [【Google Colab Python系列】 資料處理神器 Pandas 起手式](https://vocus.cc/article/64c90f67fd8978000138d9bc)
+* [【Google Colab Python系列】 資料處理神器 Pandas 合併之術(join、concat)](https://vocus.cc/article/64ca3fb9fd897800018b230c)
+* [【Google Colab Python系列】 資料處理神器 Pandas 分割與重組之術(Grouping/Reshaping)](https://vocus.cc/article/64ca6232fd897800018e734a)
