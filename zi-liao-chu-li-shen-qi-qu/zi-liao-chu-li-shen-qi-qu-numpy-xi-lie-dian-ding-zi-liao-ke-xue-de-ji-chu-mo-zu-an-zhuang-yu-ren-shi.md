@@ -192,6 +192,10 @@ print(f'data: {sample.data}')
 
 <figure><img src="../.gitbook/assets/屬性.png" alt=""><figcaption></figcaption></figure>
 
+今天的範例都在這裡「[📦 ](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/pandas/pandas\_quickstart.ipynb)[numpy/numpy\_quickstart.ipynb](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/numpy/numpy\_quickstart.ipynb)」歡迎自行取用。
+
+如何使用請參閱「[【Google Colab Python系列】Colab平台與Python如何擦出火花？](https://www.potatomedia.co/s/aNLHZe3S)」。
+
 ### 結語
 
 這次的主題主要認識一下NumPy的基本概念，先學會安裝、引用，再理解一下陣列元素的不同及基礎的屬性代表什麼含意，對於數組具有一定的認識之後，下一章將帶來一些關於陣列的進階應用，敬請期待...，如果有任何問題也歡迎提出討論。
