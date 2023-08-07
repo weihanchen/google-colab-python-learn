@@ -31,6 +31,7 @@
   * [📈【Google Colab Python系列】以Goodinfo為例，將資料視覺化吧！](goodinfo-pa-chong-shi-zhan-pian/google-colab-python-xi-lie-yi-goodinfo-wei-li-jiang-zi-liao-shi-jue-hua-ba.md)
 * [資料處理神器區](zi-liao-chu-li-shen-qi-qu/README.md)
   * [【資料處理神器區 - NumPy系列】 奠定資料科學的基礎模組(安裝與認識維度)](zi-liao-chu-li-shen-qi-qu/zi-liao-chu-li-shen-qi-qu-numpy-xi-lie-dian-ding-zi-liao-ke-xue-de-ji-chu-mo-zu-an-zhuang-yu-ren-shi.md)
+  * [【資料處理神器區 - NumPy系列】 分割(Split)的藝術](zi-liao-chu-li-shen-qi-qu/zi-liao-chu-li-shen-qi-qu-numpy-xi-lie-fen-ge-split-de-yi-shu.md)
   * [【Google Colab Python系列】 資料處理神器 Pandas 起手式](zi-liao-chu-li-shen-qi-qu/google-colab-python-xi-lie-zi-liao-chu-li-shen-qi-pandas-qi-shou-shi.md)
   * [【Google Colab Python系列】 資料處理神器 Pandas 合併之術(join、concat)](zi-liao-chu-li-shen-qi-qu/google-colab-python-xi-lie-zi-liao-chu-li-shen-qi-pandas-he-bing-zhi-shu-joinconcat.md)
   * [【Google Colab Python系列】 資料處理神器 Pandas 分組與重朔之術(Grouping/Reshaping)](zi-liao-chu-li-shen-qi-qu/google-colab-python-xi-lie-zi-liao-chu-li-shen-qi-pandas-fen-zu-yu-zhong-shuo-zhi-shu-groupingreshap.md)
