@@ -71,19 +71,11 @@ print(splitted_arr)
 
 ### numpy.hsplit(ary, indices\_or\_sections)
 
-水平分割(以欄進行切割)， 這邊較難以理解是因為需要搭配圖來看才會清楚:
+水平分割(以欄進行切割)
 
-```
-1 2 3 4
-5 6 7 8
-```
 
-切成2欄後:
 
-```
-1 2 | 3 4
-5 6 | 7 8
-```
+<figure><img src="../.gitbook/assets/水平分割.drawio.png" alt=""><figcaption></figcaption></figure>
 
 以數據結構來說會變成:
 
@@ -108,18 +100,9 @@ splitted_arr
 
 垂直切割(以列進行切割)
 
-```
-1 2 3 4
-5 6 7 8
-```
 
-切成2列後:
 
-```
-1 2 3 4
--------
-5 6 7 8
-```
+<figure><img src="../.gitbook/assets/垂直分割.drawio.png" alt=""><figcaption></figcaption></figure>
 
 數據結構:
 
