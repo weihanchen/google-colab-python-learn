@@ -54,7 +54,7 @@ import numpy as np
 
 
 
-<figure><img src="../.gitbook/assets/numpy陣列.drawio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/numpy陣列.drawio.png" alt=""><figcaption><p><a href="https://vocus.cc/article/64cdc41cfd89780001f99a00">圖片來源</a></p></figcaption></figure>
 
 有了概念之後，我們就實際來繪製看看吧！ 如此一來更能加深印象。
 
@@ -84,7 +84,7 @@ plt.show()
 
 
 
-<figure><img src="../.gitbook/assets/1d.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1d.png" alt=""><figcaption><p><a href="https://vocus.cc/article/64cdc41cfd89780001f99a00">圖片來源</a></p></figcaption></figure>
 
 #### 二維陣列
 
@@ -112,7 +112,7 @@ plt.show()
 
 
 
-<figure><img src="../.gitbook/assets/2d.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2d.png" alt=""><figcaption><p><a href="https://vocus.cc/article/64cdc41cfd89780001f99a00">圖片來源</a></p></figcaption></figure>
 
 #### 三維陣列
 
@@ -143,7 +143,7 @@ plt.show()
 
 
 
-<figure><img src="../.gitbook/assets/3d.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3d.png" alt=""><figcaption><p><a href="https://vocus.cc/article/64cdc41cfd89780001f99a00">圖片來源</a></p></figcaption></figure>
 
 ### 介紹幾個ndarray的一些屬性
 
@@ -190,7 +190,7 @@ print(f'data: {sample.data}')
 
 ###
 
-<figure><img src="../.gitbook/assets/屬性.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/屬性.png" alt=""><figcaption><p><a href="https://vocus.cc/article/64cdc41cfd89780001f99a00">圖片來源</a></p></figcaption></figure>
 
 今天的範例都在這裡「[📦 ](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/pandas/pandas\_quickstart.ipynb)[numpy/numpy\_quickstart.ipynb](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/numpy/numpy\_quickstart.ipynb)」歡迎自行取用。
 
