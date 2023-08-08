@@ -79,10 +79,6 @@ print(splitted_arr)
 
 以數據結構來說會變成:
 
-```
-[array(1, 2, 5, 6), array(3, 4, 7, 8)]
-```
-
 ```python
 import numpy as np
 
@@ -96,6 +92,10 @@ splitted_arr = np.hsplit(arr, 2)
 splitted_arr
 ```
 
+```
+[array(1, 2, 5, 6), array(3, 4, 7, 8)]
+```
+
 ### numpy.vsplit(ary, indices\_or\_sections)
 
 垂直切割(以列進行切割)
@@ -103,12 +103,6 @@ splitted_arr
 
 
 <figure><img src="../.gitbook/assets/垂直分割.drawio.png" alt=""><figcaption></figcaption></figure>
-
-數據結構:
-
-```
-[array(1, 2, 3, 4), array(5, 6, 7, 8)]
-```
 
 ```python
 import numpy as np
@@ -123,7 +117,15 @@ splitted_arr = np.vsplit(arr, 2)
 splitted_arr
 ```
 
+```
+[array(1, 2, 3, 4), array(5, 6, 7, 8)]
+```
+
 ### numpy.dsplit(ary, indices\_or\_sections)
+
+
+
+<figure><img src="../.gitbook/assets/dsplit.drawio.png" alt=""><figcaption></figcaption></figure>
 
 ```python
 import numpy as np
@@ -132,17 +134,34 @@ import matplotlib.pyplot as plt
 # 創建一個 2x2x4 的三維數組
 arr = np.array([
     [
-      [1, 2, 3, 4]
+      [1, 2, 3, 4],
+      [5, 6, 7, 8]
     ],
     [
-      [5, 6, 7, 8]
+      [9, 10, 11, 12],
+      [13, 14, 15, 16]
     ]
 ])
+
+print(arr)
 
 # 使用 dsplit 將數據切割
 splitted_arr = np.dsplit(arr, 2)
 
 splitted_arr
+```
+
+```python
+[array([[[ 1,  2],
+         [ 5,  6]],
+ 
+        [[ 9, 10],
+         [13, 14]]]),
+ array([[[ 3,  4],
+         [ 7,  8]],
+ 
+        [[11, 12],
+         [15, 16]]])]
 ```
 
 今天的範例都在這裡「[📦 numpy\_split.ipynb](https://github.com/weihanchen/google-colab-python-learn/blob/main/jupyter-examples/numpy/numpy\_split.ipynb)」歡迎自行取用。
