@@ -6,7 +6,7 @@ description: 資料科學基礎打的好，萬事沒煩惱...
 
 
 
-<figure><img src="../.gitbook/assets/numpy分割.drawio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/numpy分割.drawio.png" alt=""><figcaption><p><a href="https://vocus.cc/article/64d2c61bfd897800010929ed">圖片來源</a></p></figcaption></figure>
 
 資料切割對於我們進行平行化運作或者是轉換數據的應用上非常重要， 但如何切呢？ 要怎麼切才切的好呢？ 這些是切割的過程常常會面臨的一些問題， 那就讓我們一步步的來解密吧！
 
@@ -55,7 +55,7 @@ print(splitted_arr)
 
 
 
-<figure><img src="../.gitbook/assets/發生錯誤.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/發生錯誤.png" alt=""><figcaption><p><a href="https://vocus.cc/article/64d2c61bfd897800010929ed">圖片來源</a></p></figcaption></figure>
 
 
 
@@ -75,7 +75,7 @@ print(splitted_arr)
 
 
 
-<figure><img src="../.gitbook/assets/水平分割.drawio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/水平分割.drawio.png" alt=""><figcaption><p><a href="https://vocus.cc/article/64d2c61bfd897800010929ed">圖片來源</a></p></figcaption></figure>
 
 以數據結構來說會變成:
 
@@ -102,7 +102,7 @@ splitted_arr
 
 
 
-<figure><img src="../.gitbook/assets/垂直分割.drawio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/垂直分割.drawio.png" alt=""><figcaption><p><a href="https://vocus.cc/article/64d2c61bfd897800010929ed">圖片來源</a></p></figcaption></figure>
 
 ```python
 import numpy as np
@@ -125,7 +125,7 @@ splitted_arr
 
 
 
-<figure><img src="../.gitbook/assets/dsplit.drawio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/dsplit.drawio.png" alt=""><figcaption><p><a href="https://vocus.cc/article/64d2c61bfd897800010929ed">圖片來源</a></p></figcaption></figure>
 
 ```python
 import numpy as np
