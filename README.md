@@ -41,6 +41,7 @@ description: 📚 Learn Google Colab、Python、ML、NLP、ASR、NumPy、Pandas
 * [【Google Colab Python系列】該如何設計自己的爬蟲來抓取Html資料？](goodinfo-pa-chong-shi-zhan-pian/google-colab-xi-lie-gai-ru-he-she-ji-zi-ji-de-pa-chong-lai-zhua-qu-html-zi-liao.md)
 * [【Google Colab Python系列】以Goodinfo!為例，統計區間內的數值](goodinfo-pa-chong-shi-zhan-pian/google-colab-xi-lie-yi-goodinfo-wei-li-tong-ji-yi-duan-shi-jian-nei-de-zui-gao-zui-di-zhi-li-shuai.md)
 * [📈【Google Colab Python系列】以Goodinfo為例，將資料視覺化吧！](goodinfo-pa-chong-shi-zhan-pian/google-colab-python-xi-lie-yi-goodinfo-wei-li-jiang-zi-liao-shi-jue-hua-ba.md)
+* [【資料處理神器區 - Pytube系列】 蒐集情報讓數據會說話](goodinfo-pa-chong-shi-zhan-pian/zi-liao-chu-li-shen-qi-qu-pytube-xi-lie-sou-ji-qing-bao-rang-shu-ju-hui-shuo-hua.md)
 
 ### 資料處理神器區
 
