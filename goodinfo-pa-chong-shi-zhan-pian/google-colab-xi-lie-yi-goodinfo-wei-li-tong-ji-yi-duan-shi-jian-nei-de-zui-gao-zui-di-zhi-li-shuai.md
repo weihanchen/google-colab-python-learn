@@ -6,7 +6,7 @@ description: 一起動動手來玩玩Python吧
 
 <figure><img src="../.gitbook/assets/殖利率區間.drawio.png" alt=""><figcaption><p><a href="https://www.potatomedia.co/s/GYVH5uC">圖片來源</a></p></figcaption></figure>
 
-上一篇我們有介紹Google Colab Python的爬蟲基礎概念與技巧，還沒閱讀的朋友可以先進行閱讀，並建立基礎概念之後再接著進行實戰演練會比較容易上手唷！ 這裡就附上連結「[【Google Colab系列】該如何設計自己的爬蟲來抓取Html資料？](google-colab-xi-lie-gai-ru-he-she-ji-zi-ji-de-pa-chong-lai-zhua-qu-html-zi-liao.md)」供各位參考囉！
+上一篇我們有介紹Google Colab Python的爬蟲基礎概念與技巧，還沒閱讀的朋友可以先進行閱讀，並建立基礎概念之後再接著進行實戰演練會比較容易上手唷！ 這裡就附上連結「[【Google Colab系列】該如何設計自己的爬蟲來抓取Html資料？](broken-reference)」供各位參考囉！
 
 
 

@@ -24,7 +24,6 @@
   * [【自然語言處理 - spaCy】初探強大的工具庫spaCy， 讓機器讀懂我們的語言](zi-ran-yu-yan-chu-li-nlpnatural-language-processing/zi-ran-yu-yan-chu-li-spacy-chu-tan-qiang-da-de-gong-ju-ku-spacy-rang-ji-qi-du-dong-wo-men-de-yu-yan.md)
   * [【自然語言處理 - spaCy】善用ChatGPT幫我們訓練出自訂的Name Entity Recognition實體](zi-ran-yu-yan-chu-li-nlpnatural-language-processing/zi-ran-yu-yan-chu-li-spacy-shan-yong-chatgpt-bang-wo-men-xun-lian-chu-zi-ding-de-name-entity-recogni.md)
 * [爬蟲實戰篇](goodinfo-pa-chong-shi-zhan-pian/README.md)
-  * [【Google Colab Python系列】該如何設計自己的爬蟲來抓取Html資料？](goodinfo-pa-chong-shi-zhan-pian/google-colab-xi-lie-gai-ru-he-she-ji-zi-ji-de-pa-chong-lai-zhua-qu-html-zi-liao.md)
   * [【Google Colab Python系列】以Goodinfo!為例，統計一段時間內的最高、最低殖利率](goodinfo-pa-chong-shi-zhan-pian/google-colab-xi-lie-yi-goodinfo-wei-li-tong-ji-yi-duan-shi-jian-nei-de-zui-gao-zui-di-zhi-li-shuai.md)
   * [📈【Google Colab Python系列】以Goodinfo為例，將資料視覺化吧！](goodinfo-pa-chong-shi-zhan-pian/google-colab-python-xi-lie-yi-goodinfo-wei-li-jiang-zi-liao-shi-jue-hua-ba.md)
   * [【資料處理神器區 - Pytube系列】 蒐集情報讓數據會說話](goodinfo-pa-chong-shi-zhan-pian/zi-liao-chu-li-shen-qi-qu-pytube-xi-lie-sou-ji-qing-bao-rang-shu-ju-hui-shuo-hua.md)
