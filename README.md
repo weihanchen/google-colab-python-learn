@@ -23,8 +23,6 @@ description: 📚 Learn Google Colab、Python、ML、NLP、ASR、NumPy、Pandas
 
 * [【語音辨識 - Whisper】 初探Whisper: 來對一段Youtube影片進行辨識吧！](asr-yu-yin-bian-shi-pian-openai-whisper/yu-yin-bian-shi-whisper-chu-tan-whisper-lai-dui-yi-duan-youtube-ying-pian-jin-hang-bian-shi-ba.md)
 * [【語音辨識 - Whisper】OpenAI Whisper: 語音辨識產生字幕檔](asr-yu-yin-bian-shi-pian-openai-whisper/yu-yin-bian-shi-whisperopenai-whisper-yu-yin-bian-shi-chan-sheng-zi-mu-dang.md)
-* [【語音辨識 - Whisper】 雙聲道音訊處理與辨識](https://vocus.cc/article/64733d7efd89780001781326)
-* [【語音辨識 - Whisper】 準確與否需要有一把 📏尺來衡量辨識率](https://vocus.cc/article/64b3a209fd89780001481152)
 
 ### 自然語言處理 - NLP(Natural Language Processing)
 
