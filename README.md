@@ -54,7 +54,5 @@ description: 📚 Learn Google Colab、Python、ML、NLP、ASR、NumPy、Pandas
 * [【Google Colab Python系列】 視覺化資料Matplotlib 新手村](bao-biao-shi-jue-hua-gong-ju-ji/google-colab-python-xi-lie-shi-jue-hua-zi-liao-matplotlib-xin-shou-cun.md)
 * [【Google Colab Python系列】 視覺化資料Matplotlib 如何繪製出中文？](bao-biao-shi-jue-hua-gong-ju-ji/google-colab-python-xi-lie-shi-jue-hua-zi-liao-matplotlib-ru-he-hui-zhi-chu-zhong-wen.md)
 
-### 交易策略回測篇
 
-* [【Google Colab Python系列】 技術指標回測 - KD策略](jiao-yi-ce-lve-hui-ce-pian/google-colab-python-xi-lie-ji-shu-zhi-biao-hui-ce-kd-ce-lve.md)
 
